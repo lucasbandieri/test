@@ -8,9 +8,9 @@
 
 
 
-<title>Barrios de Puerto Madryn</title>
+<title>¡Un Madryn Mejor es posible! Concina-Roberts 2023</title>
 
-<meta property="og:title" content="Barrios de Puerto Madryn" />
+<meta property="og:title" content="¡Un Madryn Mejor es posible! Concina-Roberts 2023" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -92,48 +92,6 @@ h6 {font-size: 12px;}
 code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
 pre:not([class]) { background-color: white }</style>
 <script>!function(a,b){"use strict";function c(c,g){var h=this;h.$el=a(c),h.el=c,h.id=e++,h.$el.bind("destroyed",a.proxy(h.teardown,h)),h.$clonedHeader=null,h.$originalHeader=null,h.cachedHeaderHeight=null,h.isSticky=!1,h.hasBeenSticky=!1,h.leftOffset=null,h.topOffset=null,h.init=function(){h.setOptions(g),h.$el.each(function(){var b=a(this);b.css("padding",0),h.$originalHeader=a("thead:first",this),h.$clonedHeader=h.$originalHeader.clone(),b.trigger("clonedHeader."+d,[h.$clonedHeader]),h.$clonedHeader.addClass("tableFloatingHeader"),h.$clonedHeader.css({display:"none",opacity:0}),h.$originalHeader.addClass("tableFloatingHeaderOriginal"),h.$originalHeader.after(h.$clonedHeader),h.$printStyle=a('<style type="text/css" media="print">.tableFloatingHeader{display:none !important;}.tableFloatingHeaderOriginal{position:static !important;}</style>'),h.$head.append(h.$printStyle)}),h.updateWidth(),h.toggleHeaders(),h.bind()},h.destroy=function(){h.$el.unbind("destroyed",h.teardown),h.teardown()},h.teardown=function(){h.isSticky&&h.$originalHeader.css("position","static"),a.removeData(h.el,"plugin_"+d),h.unbind(),h.$clonedHeader.remove(),h.$originalHeader.removeClass("tableFloatingHeaderOriginal"),h.$originalHeader.css("visibility","visible"),h.$printStyle.remove(),h.el=null,h.$el=null},h.bind=function(){h.$scrollableArea.on("scroll."+d,h.toggleHeaders),h.isWindowScrolling||(h.$window.on("scroll."+d+h.id,h.setPositionValues),h.$window.on("resize."+d+h.id,h.toggleHeaders)),h.$scrollableArea.on("resize."+d,h.toggleHeaders),h.$scrollableArea.on("resize."+d,h.updateWidth)},h.unbind=function(){h.$scrollableArea.off("."+d,h.toggleHeaders),h.isWindowScrolling||(h.$window.off("."+d+h.id,h.setPositionValues),h.$window.off("."+d+h.id,h.toggleHeaders)),h.$scrollableArea.off("."+d,h.updateWidth)},h.debounce=function(a,b){var c=null;return function(){var d=this,e=arguments;clearTimeout(c),c=setTimeout(function(){a.apply(d,e)},b)}},h.toggleHeaders=h.debounce(function(){h.$el&&h.$el.each(function(){var b,c=a(this),e=h.isWindowScrolling?isNaN(h.options.fixedOffset)?h.options.fixedOffset.outerHeight():h.options.fixedOffset:h.$scrollableArea.offset().top+(isNaN(h.options.fixedOffset)?0:h.options.fixedOffset),f=c.offset(),g=h.$scrollableArea.scrollTop()+e,i=h.$scrollableArea.scrollLeft(),j=h.options.cacheHeaderHeight?h.cachedHeaderHeight:h.$clonedHeader.height(),k=h.isWindowScrolling?g>f.top:e>f.top,l=(h.isWindowScrolling?g:0)<f.top+c.height()-j-(h.isWindowScrolling?0:e);k&&l?(b=f.left-i+h.options.leftOffset,h.$originalHeader.css({position:"fixed","margin-top":h.options.marginTop,left:b,"z-index":3}),h.leftOffset=b,h.topOffset=e,h.$clonedHeader.css("display",""),h.isSticky||(h.isSticky=!0,h.updateWidth(),c.trigger("enabledStickiness."+d)),h.setPositionValues()):h.isSticky&&(h.$originalHeader.css("position","static"),h.$clonedHeader.css("display","none"),h.isSticky=!1,h.resetWidth(a("td,th",h.$clonedHeader),a("td,th",h.$originalHeader)),c.trigger("disabledStickiness."+d))})},0),h.setPositionValues=h.debounce(function(){var a=h.$window.scrollTop(),b=h.$window.scrollLeft();!h.isSticky||0>a||a+h.$window.height()>h.$document.height()||0>b||b+h.$window.width()>h.$document.width()||h.$originalHeader.css({top:h.topOffset-(h.isWindowScrolling?0:a),left:h.leftOffset-(h.isWindowScrolling?0:b)})},0),h.updateWidth=h.debounce(function(){if(h.isSticky){h.$originalHeaderCells||(h.$originalHeaderCells=a("th,td",h.$originalHeader)),h.$clonedHeaderCells||(h.$clonedHeaderCells=a("th,td",h.$clonedHeader));var b=h.getWidth(h.$clonedHeaderCells);h.setWidth(b,h.$clonedHeaderCells,h.$originalHeaderCells),h.$originalHeader.css("width",h.$clonedHeader.width()),h.options.cacheHeaderHeight&&(h.cachedHeaderHeight=h.$clonedHeader.height())}},0),h.getWidth=function(c){var d=[];return c.each(function(c){var e,f=a(this);if("border-box"===f.css("box-sizing")){var g=f[0].getBoundingClientRect();e=g.width?g.width:g.right-g.left}else{var i=a("th",h.$originalHeader);if("collapse"===i.css("border-collapse"))if(b.getComputedStyle)e=parseFloat(b.getComputedStyle(this,null).width);else{var j=parseFloat(f.css("padding-left")),k=parseFloat(f.css("padding-right")),l=parseFloat(f.css("border-width"));e=f.outerWidth()-j-k-l}else e=f.width()}d[c]=e}),d},h.setWidth=function(a,b,c){b.each(function(b){var d=a[b];c.eq(b).css({"min-width":d,"max-width":d})})},h.resetWidth=function(b,c){b.each(function(b){var d=a(this);c.eq(b).css({"min-width":d.css("min-width"),"max-width":d.css("max-width")})})},h.setOptions=function(b){h.options=a.extend({},f,b),h.$window=a(h.options.objWindow),h.$head=a(h.options.objHead),h.$document=a(h.options.objDocument),h.$scrollableArea=a(h.options.scrollableArea),h.isWindowScrolling=h.$scrollableArea[0]===h.$window[0]},h.updateOptions=function(a){h.setOptions(a),h.unbind(),h.bind(),h.updateWidth(),h.toggleHeaders()},h.init()}var d="stickyTableHeaders",e=0,f={fixedOffset:0,leftOffset:0,marginTop:0,objDocument:document,objHead:"head",objWindow:b,scrollableArea:b,cacheHeaderHeight:!1};a.fn[d]=function(b){return this.each(function(){var e=a.data(this,"plugin_"+d);e?"string"==typeof b?e[b].apply(e):e.updateOptions(b):"destroy"!==b&&a.data(this,"plugin_"+d,new c(this,b))})}}(jQuery,window);</script>
-<style type="text/css">.value-box-primary, .bg-primary {
-background-color: rgba(39, 128, 227, 0.7);
-}
-.value-box-info, .bg-info {
-background-color: rgba(153, 84, 187, 0.7);
-}
-.value-box-success, .bg-success {
-background-color: rgba(63, 182, 24, 0.7);
-}
-.value-box-warning, .bg-warning {
-background-color: rgba(255, 117, 24, 0.7);
-}
-.value-box-danger, .bg-danger {
-background-color: rgba(255, 0, 57, 0.7);
-}
-</style>
-<style type="text/css">body{background:#f5f5f5;padding:60px 0 0 8px}body hr{border-color:#dfdfdf;margin:10px 0}.navbar-inverse .navbar-nav>li>a,.navbar .navbar-brand{text-decoration:none}.navbar-logo{margin-top:1px}.navbar-logo img{margin-right:12px}.navbar-author{margin-left:10px;font-size:15.4px}.navbar .dropdown-menu .fa{min-width:20px}.navbar .dropdown-menu{min-width:150px;max-height:500px;overflow:auto}.chart-wrapper,.nav-tabs-custom,.sbframe-commentary{background:#fff;border:1px solid #dfdfdf;border-radius:.25rem;margin-bottom:8px;margin-right:8px}.chart-title{border-bottom:1px solid #dfdfdf;font-size:14px;font-weight:300;padding:7px 10px 4px;color:inherit;font-family:inherit}.chart-wrapper .chart-title:empty{display:none}.chart-wrapper .chart-stage{overflow:hidden;padding:5px 10px;position:relative}.chart-wrapper .chart-notes{background:#fcfcfc;border-top:1px solid #dfdfdf;color:#999;font-size:12.25px;padding:8px 10px 5px}#dashboard-container{visibility:hidden}.tab-content>.dashboard-page-wrapper.active{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.dashboard-page-wrapper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.dashboard-row-orientation{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.dashboard-row{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.dashboard-row-flex{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1}.dashboard-column-orientation{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row}.dashboard-column{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.chart-wrapper-flex{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.chart-stage-flex{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;position:relative}.chart-shim{position:absolute;left:8px;top:8px;right:8px;bottom:8px}.no-padding .chart-shim{left:0;top:0;right:0;bottom:0}.flowing-content-shim{overflow:auto;left:0;top:0;right:0;bottom:0;padding-left:8px;padding-right:8px}.flowing-content-container{padding-top:8px;padding-bottom:8px}.chart-stage .table-bordered{border:none}.chart-stage .table-bordered>tbody>tr>th,.chart-stage .table-bordered>tfoot>tr>th,.chart-stage .table-bordered>tbody>tr>td,.chart-stage .table-bordered>tfoot>tr>td{border:none}.chart-stage .table-bordered>tbody>tr>td{border-top:1px solid #dfdfdf}.chart-stage .table-bordered>thead>tr>th{border:none;border-bottom:2px solid #dfdfdf}.bootstrap-table table>thead{background-color:#fff}.bootstrap-table table.data,.bootstrap-table table.shiny-table{width:inherit !important}.bootstrap-table table.data>tbody>tr>th,.bootstrap-table table.shiny-table>tbody>tr>th{border-top:none;border-bottom:2px solid #dfdfdf;padding:5px}.bootstrap-table .data td[align=right]{font-family:inherit}.chart-wrapper form{padding-left:5px;padding-right:5px}.shiny-input-container label{font-weight:normal}.chart-stage .html-widget{width:100% !important;height:100% !important}.chart-stage .html-widget-static-bound{width:100% !important;height:100% !important}.chart-stage .shiny-bound-output{width:100% !important;height:100% !important}.chart-shim>p:empty{display:none}.chart-stage>p:empty{display:none}.chart-stage .knitr-options{display:none}.image-container{position:absolute;top:0;left:0;right:0;bottom:0;margin:0}.image-container img{opacity:0;overflow:hidden}.storyboard-nav .sbnext,.storyboard-nav .sbprev{font-size:49px;color:#333}.storyboard-nav .sbframelist ul li{background:#fff;border:1px solid #dfdfdf;border-radius:.25rem;color:#666;font-size:14px}.storyboard-nav .sbframelist ul li.active{color:#fff;background-color:rgba(51,122,183,0.7)}.sbframe-commentary{background:#fcfcfc;font-size:14px}.nav-tabs-custom>.nav-tabs{margin:0;border-bottom:1px solid #dfdfdf;color:rgba(92,92,92,0.6);font-size:14px;font-weight:300;font-family:inherit;border-top-right-radius:3px;border-top-left-radius:3px}.nav-tabs-custom>.nav-tabs>li{border-top:3px solid transparent;margin-bottom:-1px;margin-right:5px}.nav-tabs-custom>.nav-tabs>li>a,.nav-tabs-custom>.nav-tabs>li>a:active{color:#5c5c5c;font-weight:300;font-size:14px;border-radius:0;padding:3px 10px 5px;text-transform:none}.nav-tabs-custom>.nav-tabs>li:not(.active)>a{border-bottom-color:transparent}.nav-tabs-custom>.nav-tabs>li>a.text-muted{color:rgba(92,92,92,0.6)}.nav-tabs-custom>.nav-tabs>li>a,.nav-tabs-custom>.nav-tabs>li>a:hover{background:transparent;margin:0}.nav-tabs-custom>.nav-tabs>li>a:hover{color:rgba(92,92,92,0.6)}.nav-tabs-custom>.nav-tabs>li:not(.active)>a:hover,.nav-tabs-custom>.nav-tabs>li:not(.active)>a:focus,.nav-tabs-custom>.nav-tabs>li:not(.active)>a:active{border-color:transparent}.nav-tabs-custom>.nav-tabs>li.active{border-top-color:#337ab7}.nav-tabs-custom>.nav-tabs>li.active>a,.nav-tabs-custom>.nav-tabs>li.active:hover>a{background-color:#fff;color:#5c5c5c}.nav-tabs-custom>.nav-tabs>li.active>a{border-top-color:transparent;border-left-color:#dfdfdf;border-right-color:#dfdfdf}.nav-tabs-custom>.nav-tabs>li:first-of-type{margin-left:0}.nav-tabs-custom>.nav-tabs>li.active:first-of-type>a{border-left-color:transparent}.nav-tabs-custom>.nav-tabs.pull-right{float:none !important}.nav-tabs-custom>.nav-tabs.pull-right>li{float:right}.nav-tabs-custom>.nav-tabs.pull-right>li:first-of-type{margin-right:0}.nav-tabs-custom>.nav-tabs.pull-right>li:first-of-type>a{border-left-width:1px}.nav-tabs-custom>.nav-tabs.pull-right>li.active:first-of-type>a{border-left-color:#dfdfdf;border-right-color:transparent}.nav-tabs-custom>.nav-tabs>li.header{line-height:35px;padding:0 10px;font-size:21px;color:#5c5c5c}.nav-tabs-custom>.nav-tabs>li.header>.fa,.nav-tabs-custom>.nav-tabs>li.header>.glyphicon,.nav-tabs-custom>.nav-tabs>li.header>.ion{margin-right:5px}.nav-tabs-custom>.tab-content{background:#fff;padding:0;border-bottom-right-radius:3px;border-bottom-left-radius:3px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.nav-tabs-custom>.tab-content>.chart-wrapper{background:#fff;border:none;margin:0}.nav-tabs-custom>.tab-content>.active{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.nav-tabs-custom .dropdown.open>a:active,.nav-tabs-custom .dropdown.open>a:focus{background:transparent;color:#5c5c5c}@media (max-width: 767px){.value-box{text-align:center;margin-right:8px}.value-box .icon{display:none}}.section.sidebar{position:fixed;top:51px;left:0;bottom:0;border-right:1px solid #dfdfdf;background-color:rgba(51,122,183,0.1);padding-top:10px;padding-left:10px;padding-right:10px;visibility:hidden;overflow:auto}.section.sidebar form p:first-child{margin-top:10px}#flexdashboard-source-code{display:none}.featherlight-content #flexdashboard-source-code{display:inline-block}.featherlight-content{width:80%;max-width:800px;padding:0 !important;border-bottom:none !important}.featherlight:last-of-type{background:rgba(51,51,51,0.7)}.featherlight-inner{width:100%}.featherlight-content pre{margin:0;border:0;background:#fff;font-size:12.25px}.unselectable{-ms-user-select:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:-moz-none;-o-user-select:none;user-select:none}#flexdashboard-source-code code{-ms-user-select:text;-webkit-user-select:text;-khtml-user-select:text;-moz-user-select:text;-o-user-select:text;user-select:text}.dataTables_filter input[type="search"]{-webkit-appearance:searchfield;outline:none}.dataTables_wrapper.no-footer .dataTables_info{padding-top:0}table.dataTable thead th{border-bottom:1px solid #dfdfdf}.dataTables_wrapper.no-footer .dataTables_scrollBody{border-bottom:1px solid #dfdfdf}.desktop-layout div.section.mobile{display:none}.mobile-layout div.section.no-mobile{display:none}.mobile-figure{display:none}
-</style>
-<style type="text/css">body {
-padding-top: 60px;
-}
-.section.sidebar {
-top: 51px;
-background-color: rgba(39, 128, 227, 0.1);
-}
-.value-box {
-color: #f9f9f9;
-}
-.storyboard-nav .sbframelist ul li.active {
-background-color: rgba(39, 128, 227, 0.7);
-}
-.nav-tabs-custom > .nav-tabs > li.active {
-border-top-color: rgba(39, 128, 227, 0.7);
-}
-.chart-title {
-font-weight: 500;
-}
-.nav-tabs-custom > .nav-tabs > li > a,
-.nav-tabs-custom > .nav-tabs > li > a:active {
-font-weight: 500;
-}
-</style>
 <script>(function() {
   // If window.HTMLWidgets is already defined, then use it; otherwise create a
   // new object. This allows preceding code to set options that affect the
@@ -5053,6 +5011,300 @@ var n;n=function(){return function(e){var t={};function r(n){if(t[n])return t[n]
 //# sourceMappingURL=lfx-search-bindings.js.map</script>
 <style type="text/css">
 
+body {
+background: #f2f2f2;
+padding: 60px 0 0 8px; 
+}
+body hr {
+border-color: #d7d7d7;
+margin: 10px 0;
+}
+.navbar-inverse .navbar-nav > li > a,
+.navbar .navbar-brand {
+text-decoration: none;
+}
+.navbar-logo {
+margin-top: 1px;
+}
+.navbar-logo img {
+margin-right: 12px;
+}
+.navbar-author {
+margin-left: 10px;
+font-size: 15px;
+}
+.navbar .dropdown-menu .fa {
+min-width: 20px;
+}
+.navbar .dropdown-menu {
+min-width: 150px;
+max-height: 500px;
+overflow: auto;
+}
+.chart-wrapper,
+.nav-tabs-custom,
+.sbframe-commentary
+{
+background: #fff;
+border: 1px solid #e2e2e2;
+border-radius: 3px;
+margin-bottom: 8px;
+margin-right: 8px;
+}
+.chart-title {
+border-bottom: 1px solid #d7d7d7;
+color: #666;
+font-size: 14px;
+font-weight: 300;
+padding: 7px 10px 4px;
+}
+.chart-wrapper .chart-title:empty {
+display: none;
+}
+.chart-wrapper .chart-stage {
+overflow: hidden;
+padding: 5px 10px;
+position: relative;
+}
+.chart-wrapper .chart-notes {
+background: #fbfbfb;
+border-top: 1px solid #e2e2e2;
+color: #808080;
+font-size: 12px;
+padding: 8px 10px 5px;
+}
+
+#dashboard-container {
+visibility: hidden;
+}
+.tab-content>.dashboard-page-wrapper.active {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+.dashboard-page-wrapper {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+.dashboard-row-orientation {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+.dashboard-row {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-webkit-flex-direction: row;
+-ms-flex-direction: row;
+flex-direction: row;
+}
+.dashboard-row-flex {
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+}
+.dashboard-column-orientation {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: horizontal;
+-webkit-box-direction: normal;
+-webkit-flex-direction: row;
+-ms-flex-direction: row;
+flex-direction: row;
+}
+.dashboard-column {
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+.chart-wrapper-flex {
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+-webkit-flex-direction: column;
+-ms-flex-direction: column;
+flex-direction: column;
+}
+.chart-stage-flex {
+-webkit-box-flex: 1;
+-webkit-flex: 1;
+-ms-flex: 1;
+flex: 1;
+position: relative;
+}
+.chart-shim {
+position: absolute;
+left: 8px; top: 8px; right: 8px; bottom: 8px;
+}
+.no-padding .chart-shim {
+left: 0; top: 0; right: 0; bottom: 0;
+}
+.flowing-content-shim {
+overflow: auto;
+left: 0; top: 0; right: 0; bottom: 0;
+padding-left: 8px;
+padding-right: 8px;
+}
+.flowing-content-container {
+padding-top: 8px;
+padding-bottom: 8px;
+}
+.chart-stage .table-bordered {
+border: none;
+}
+.chart-stage .table-bordered > tbody > tr > th,
+.chart-stage .table-bordered > tfoot > tr > th,
+.chart-stage .table-bordered > tbody > tr > td,
+.chart-stage .table-bordered > tfoot > tr > td {
+border: none;
+}
+.chart-stage .table-bordered > tbody > tr > td {
+border-top: 1px solid #dddddd;
+}
+.chart-stage .table-bordered > thead > tr > th {
+border: none;
+border-bottom: 2px solid #dddddd;
+}
+.bootstrap-table table>thead {
+background-color: #fff;
+}
+.bootstrap-table table.data,
+.bootstrap-table table.shiny-table {
+width: inherit !important;
+}
+.bootstrap-table table.data>tbody>tr>th,
+.bootstrap-table table.shiny-table>tbody>tr>th {
+border-top: none;
+border-bottom: 2px solid #dddddd;
+padding: 5px;
+}
+.bootstrap-table .data td[align=right] {
+font-family: inherit;
+}
+.chart-wrapper form {
+padding-left: 5px;
+padding-right: 5px;
+}
+.shiny-input-container label {
+font-weight: normal;
+}
+.chart-stage .html-widget {
+width: 100% !important;
+height: 100% !important;
+}
+.chart-stage .html-widget-static-bound {
+width: 100% !important;
+height: 100% !important;
+}
+.chart-stage .shiny-bound-output {
+width: 100% !important;
+height: 100% !important;
+}
+
+.chart-shim>p:empty {
+display: none;
+}
+.chart-stage>p:empty {
+display: none;
+}
+
+.chart-stage .knitr-options {
+display: none;
+}
+
+.image-container {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+margin: 0;
+}
+.image-container img {
+opacity: 0;
+overflow: hidden;
+}
+
+.value-box {
+border-radius: 2px;
+position: relative;
+display: block;
+margin-right: 8px;
+margin-bottom: 8px;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.value-box > .inner {
+padding: 10px;
+padding-left: 20px;
+padding-right: 20px;
+}
+.value-box .value {
+font-size: 38px;
+font-weight: bold;
+margin: 0 0 3px 0;
+white-space: nowrap;
+padding: 0;
+}
+.value-box .caption {
+font-size: 15px;
+}
+.value-box .caption > small {
+display: block;
+font-size: 13px;
+margin-top: 5px;
+}
+.value-box .icon i {
+position: absolute;
+top: 15px;
+right: 15px;
+font-size: 80px;
+color: rgba(0, 0, 0, 0.15);
+}
+.linked-value:hover {
+cursor: pointer;
+}
+.value-box.linked-value:hover {
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
 .storyboard-nav button {
 background: transparent;
 border: 0;
@@ -5073,6 +5325,7 @@ opacity: .1;
 float: left;
 width: 2%;
 height: 120px;
+font-size: 50px;
 }
 .storyboard-nav .sbprev {
 text-align: left;
@@ -5103,14 +5356,25 @@ width: 270px;
 height: 100%;
 padding: 10px 10px 10px 10px;
 margin-right: 8px;
+background: #fff;
+border: 1px solid #e2e2e2;
+border-radius: 3px;
+color: #3a3c47;
 text-align: left;
+font-size: 14px;
 cursor: pointer;
 }
 .storyboard-nav .sbframelist ul li:last-child {
 margin-right: 0px;
 }
+.storyboard-nav .sbframelist ul li.active {
+color: #fff;
+background: #B8B8B8;
+}
 .sbframe-commentary {
 width: 300px;
+background: #fbfbfb;
+font-size: 14px;
 }
 .sbframe-commentary ul {
 padding-left: 22px;
@@ -5120,6 +5384,250 @@ display: flex;
 }
 .sbframe:not(.active) {
 display: none;
+}
+
+.nav-tabs-custom > .nav-tabs {
+margin: 0;
+border-bottom: 1px solid #d7d7d7;
+color: #666;
+font-size: 14px;
+font-weight: 300;
+border-top-right-radius: 3px;
+border-top-left-radius: 3px;
+}
+.nav-tabs-custom > .nav-tabs > li {
+border-top: 3px solid transparent;
+margin-bottom: -1px;
+margin-right: 5px;
+}
+.nav-tabs-custom > .nav-tabs > li > a,
+.nav-tabs-custom > .nav-tabs > li > a:active {
+color: #666;
+font-weight: 300;
+font-size: 14px;
+border-radius: 0;
+padding: 3px 10px 5px;
+text-transform: none;
+}
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a {
+border-bottom-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs > li > a.text-muted {
+color: #999;
+}
+.nav-tabs-custom > .nav-tabs > li > a,
+.nav-tabs-custom > .nav-tabs > li > a:hover {
+background: transparent;
+margin: 0;
+}
+.nav-tabs-custom > .nav-tabs > li > a:hover {
+color: #999;
+}
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:hover,
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:focus,
+.nav-tabs-custom > .nav-tabs > li:not(.active) > a:active {
+border-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+border-top-color: #3c8dbc;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a,
+.nav-tabs-custom > .nav-tabs > li.active:hover > a {
+background-color: #fff;
+color: #666;
+}
+.nav-tabs-custom > .nav-tabs > li.active > a {
+border-top-color: transparent;
+border-left-color: #d7d7d7;
+border-right-color: #d7d7d7;
+}
+.nav-tabs-custom > .nav-tabs > li:first-of-type {
+margin-left: 0;
+}
+.nav-tabs-custom > .nav-tabs > li:first-of-type.active > a {
+border-left-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs.pull-right {
+float: none !important;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li {
+float: right;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type {
+margin-right: 0;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type > a {
+border-left-width: 1px;
+}
+.nav-tabs-custom > .nav-tabs.pull-right > li:first-of-type.active > a {
+border-left-color: #d7d7d7;
+border-right-color: transparent;
+}
+.nav-tabs-custom > .nav-tabs > li.header {
+line-height: 35px;
+padding: 0 10px;
+font-size: 20px;
+color: #666;
+}
+.nav-tabs-custom > .nav-tabs > li.header > .fa,
+.nav-tabs-custom > .nav-tabs > li.header > .glyphicon,
+.nav-tabs-custom > .nav-tabs > li.header > .ion {
+margin-right: 5px;
+}
+.nav-tabs-custom > .tab-content {
+background: #fff;
+padding: 0;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+.nav-tabs-custom > .tab-content > .chart-wrapper {
+background: #fff;
+border: none;
+margin: 0;
+}
+.nav-tabs-custom > .tab-content > .active {
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+.nav-tabs-custom .dropdown.open > a:active,
+.nav-tabs-custom .dropdown.open > a:focus {
+background: transparent;
+color: #999;
+}
+@media (max-width: 767px) {
+.value-box {
+text-align: center;
+margin-right: 8px;
+}
+.value-box .icon {
+display: none;
+}
+}
+
+.section.sidebar {
+position: fixed;
+top: 51px; 
+left: 0;
+bottom: 0;
+border-right: 1px solid #e2e2e2;
+background-color: white; 
+padding-left: 10px;
+padding-right: 10px;
+visibility: hidden;
+overflow: auto;
+}
+.section.sidebar form p:first-child {
+margin-top: 10px;
+}
+
+#flexdashboard-source-code {
+display: none;
+}
+.featherlight-content #flexdashboard-source-code {
+display: inline-block;
+}
+.featherlight-content {
+width: 80%;
+max-width: 800px;
+padding: 0 !important;
+border-bottom: none !important;
+}
+.featherlight:last-of-type {
+background: rgba(0, 0, 0, 0.7);
+}
+.featherlight-inner {
+width: 100%;
+}
+.featherlight-content pre {
+margin: 0;
+border: 0;
+background: #fff;
+font-size: 12px;
+}
+.unselectable {
+-ms-user-select: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: -moz-none;
+-o-user-select: none;
+user-select: none;
+}
+#flexdashboard-source-code code {
+-ms-user-select: text;
+-webkit-user-select: text;
+-khtml-user-select: text;
+-moz-user-select: text;
+-o-user-select: text;
+user-select: text;
+}
+
+.dataTables_filter input[type="search"] {
+-webkit-appearance: searchfield;
+outline: none;
+}
+.dataTables_wrapper.no-footer
+.dataTables_info {
+padding-top: 0;
+}
+table.dataTable thead th {
+border-bottom: 1px solid #d7d7d7;
+}
+.dataTables_wrapper.no-footer .dataTables_scrollBody {
+border-bottom: 1px solid #d7d7d7;
+}
+
+.desktop-layout div.section.mobile {
+display: none;
+}
+.mobile-layout div.section.no-mobile {
+display: none;
+}
+.mobile-figure {
+display: none;
+}
+body {
+padding-top: 60px;
+}
+.section.sidebar {
+top: 51px;
+background-color: rgba(39, 128, 227, 0.1);
+}
+.value-box {
+color: #f9f9f9;
+}
+.bg-primary {
+background-color: rgba(39, 128, 227, 0.7);
+}
+.storyboard-nav .sbframelist ul li.active {
+background-color: rgba(39, 128, 227, 0.7);
+}
+.nav-tabs-custom > .nav-tabs > li.active {
+border-top-color: rgba(39, 128, 227, 0.7);
+}
+.bg-info {
+background-color: rgba(153, 84, 187, 0.7);
+}
+.bg-warning {
+background-color: rgba(255, 117, 24, 0.7);
+}
+.bg-danger {
+background-color: rgba(255, 0, 57, 0.7);
+}
+.bg-success {
+background-color: rgba(63, 182, 24, 0.7);
+}
+.chart-title {
+font-weight: 500;
+}
+.nav-tabs-custom > .nav-tabs > li > a,
+.nav-tabs-custom > .nav-tabs > li > a:active {
+font-weight: 500;
 }
 </style>
 
@@ -5133,20 +5641,20 @@ display: none;
 <div class="container-fluid">
 <div class="navbar-header">
 
-<span class="navbar-logo pull-left">
-  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAwCAYAAACynDzrAAABg2lDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV/TSkUqDnYQcchQO1kQFXHUKhShQqgVWnUwufQLmjQkKS6OgmvBwY/FqoOLs64OroIg+AHi6uKk6CIl/i8ptIjx4Lgf7+497t4BQrPKNCs0Dmi6bWZSSTGXXxXDrwgjBAFxJGRmGXOSlIbv+LpHgK93CZ7lf+7P0a8WLAYEROJZZpg28Qbx9KZtcN4njrKyrBKfE4+ZdEHiR64rHr9xLrks8Myomc3ME0eJxVIXK13MyqZGPEUcUzWd8oWcxyrnLc5atc7a9+QvjBT0lWWu0xxBCotYggQRCuqooAobCVp1UixkaD/p4x92/RK5FHJVwMixgBo0yK4f/A9+d2sVJye8pEgS6HlxnI9RILwLtBqO833sOK0TIPgMXOkdf60JzHyS3uhosSNgYBu4uO5oyh5wuQMMPRmyKbtSkKZQLALvZ/RNeWDwFuhb83pr7+P0AchSV+kb4OAQiJcoe93n3b3dvf17pt3fD2E4cqDpQpqBAAAABmJLR0QA1wDFAL8OLOKAAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5wcEAi0Np8g44QAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAACAASURBVGgFATA2z8kBBkVy//4CAwAA/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL//wAD//8AAQAAAAEAAQAAAAAAAAAAAAAAAAABAP8AAgAAAAIA/gAAAAAAAf8AAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAgD/AAAAAAAAAAAAAAAAAAEBAAABAP4AAAAAAAAAAAABAAEAAAABAAAAAAAAAAAAAAAAAP8A/wAAAAIAAAH+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/w2ACgQr8egAAAABJRU5ErkJggg==" class="navbar-logo" />
-</span>
-<span class="navbar-brand">
-  Barrios de Puerto Madryn
-  <span class="navbar-author">
-        </span>
-</span>
-
-<button id="navbar-button" type="button" class="navbar-toggle collapsed pull-right" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+<button id="navbar-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 </button>
+
+<span class="navbar-logo pull-left">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAAAwCAYAAACynDzrAAABg2lDQ1BJQ0MgcHJvZmlsZQAAKJF9kT1Iw0AcxV/TSkUqDnYQcchQO1kQFXHUKhShQqgVWnUwufQLmjQkKS6OgmvBwY/FqoOLs64OroIg+AHi6uKk6CIl/i8ptIjx4Lgf7+497t4BQrPKNCs0Dmi6bWZSSTGXXxXDrwgjBAFxJGRmGXOSlIbv+LpHgK93CZ7lf+7P0a8WLAYEROJZZpg28Qbx9KZtcN4njrKyrBKfE4+ZdEHiR64rHr9xLrks8Myomc3ME0eJxVIXK13MyqZGPEUcUzWd8oWcxyrnLc5atc7a9+QvjBT0lWWu0xxBCotYggQRCuqooAobCVp1UixkaD/p4x92/RK5FHJVwMixgBo0yK4f/A9+d2sVJye8pEgS6HlxnI9RILwLtBqO833sOK0TIPgMXOkdf60JzHyS3uhosSNgYBu4uO5oyh5wuQMMPRmyKbtSkKZQLALvZ/RNeWDwFuhb83pr7+P0AchSV+kb4OAQiJcoe93n3b3dvf17pt3fD2E4cqDpQpqBAAAABmJLR0QA1wDFAL8OLOKAAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5wcEAi0Np8g44QAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAACAASURBVGgFATA2z8kBBkVy//4CAwAA/wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL//wAD//8AAQAAAAEAAQAAAAAAAAAAAAAAAAABAP8AAgAAAAIA/gAAAAAAAf8AAAAAAAAAAAEAAQAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAgD/AAAAAAAAAAAAAAAAAAEBAAABAP4AAAAAAAAAAAABAAEAAAABAAAAAAAAAAAAAAAAAP8A/wAAAAIAAAH+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/w2ACgQr8egAAAABJRU5ErkJggg==" class="navbar-logo" />
+</span>
+<span class="navbar-brand">
+  ¡Un Madryn Mejor es posible! Concina-Roberts 2023
+  <span class="navbar-author">
+        </span>
+</span>
 
 </div>
 <div id="navbar" class="navbar-collapse collapse">
@@ -5364,13 +5872,11 @@ var FlexDashboard = (function () {
         for (var j = 0; j<item.items.length; j++) {
           var subItem = item.items[j];
           var li = $('<li></li>');
-          var a = navbarLink(subItem.icon, subItem.title, subItem.href, subItem.target);
-          a.removeClass("nav-link").addClass("dropdown-item");
-          li.append(a);
+          li.append(navbarLink(subItem.icon, subItem.title, subItem.href, subItem.target));
           menu.append(li);
         }
       } else {
-        var li = $('<li class="nav-item"></li>');
+        var li = $('<li></li>');
         li.append(navbarLink(item.icon, item.title, item.href, item.target));
         container.append(li);
       }
@@ -5385,7 +5891,7 @@ var FlexDashboard = (function () {
     if (existingMenu.length > 0) {
       return existingMenu.children('ul');
     } else {
-      var li = $('<li class="nav-item"></li>');
+      var li = $('<li></li>');
       if (id)
         li.attr('id', id);
       li.addClass('dropdown');
@@ -5398,7 +5904,6 @@ var FlexDashboard = (function () {
       var a = navbarLink(icon, title, "#");
       a.addClass('dropdown-toggle');
       a.attr('data-toggle', 'dropdown');
-      a.attr('data-bs-toggle', 'dropdown');
       a.attr('role', 'button');
       a.attr('aria-expanded', 'false');
       li.append(a);
@@ -5453,10 +5958,8 @@ var FlexDashboard = (function () {
     if (navmenu) {
       var menuId = navmenu.replace(/\s+/g, '');
       var menu = navbarMenu(menuId, null, navmenu, container);
-      li.find("> a").removeClass("nav-link").addClass("dropdown-item");
       menu.append(li);
     } else {
-      li.addClass("nav-item")
       container.append(li);
     }
 
@@ -5467,7 +5970,7 @@ var FlexDashboard = (function () {
 
   function navbarLink(icon, title, href, target) {
 
-    var a = $('<a class="nav-link"></a>');
+    var a = $('<a></a>');
     if (icon) {
 
       // get the name of the icon set and icon
@@ -5525,6 +6028,7 @@ var FlexDashboard = (function () {
      var serviceLinks = {
       "twitter": "https://twitter.com/share?text=" + encodeURIComponent(document.title) + "&url="+encodeURIComponent(location.href),
       "facebook": "https://www.facebook.com/sharer/sharer.php?s=100&p[url]="+encodeURIComponent(location.href),
+      "google-plus": "https://plus.google.com/share?url="+encodeURIComponent(location.href),
       "linkedin": "https://www.linkedin.com/shareArticle?mini=true&url="+encodeURIComponent(location.href) + "&title=" + encodeURIComponent(document.title),
       "pinterest": "https://pinterest.com/pin/create/link/?url="+encodeURIComponent(location.href) + "&description=" + encodeURIComponent(document.title)
     };
@@ -6141,8 +6645,7 @@ var FlexDashboard = (function () {
 
     // check for fade option
     var fade = tabset.hasClass("tabset-fade");
-    var pills = tabset.hasClass("tabset-pills");
-    var navClass = pills ? "nav-pills" : "nav-tabs";
+    var navClass = "nav-tabs";
 
     // determine the heading level of the tabset and tabs
     var match = tabset.attr('class').match(/level(\d) /);
@@ -6163,7 +6666,6 @@ var FlexDashboard = (function () {
     $(tabs[0]).before(tabContent);
 
     // build the tabset
-    var activeTab = 0;
     tabs.each(function(i) {
 
       // get the tab div
@@ -6171,10 +6673,6 @@ var FlexDashboard = (function () {
 
       // get the id then sanitize it for use with bootstrap tabs
       var id = tab.attr('id');
-
-      // see if this is marked as the active tab
-      if (tab.hasClass('active'))
-        activeTab = i;
 
       // sanitize the id for use with bootstrap tabs
       id = id.replace(/[.\/?&!#<>]/g, '').replace(/\s/g, '_');
@@ -6185,12 +6683,14 @@ var FlexDashboard = (function () {
       var headingDom = heading.contents();
 
       // build and append the tab list item
-      var a = $('<a role="tab" data-toggle="tab" class="nav-link"></a>');
+      var a = $('<a role="tab" data-toggle="tab"></a>');
       a.append(headingDom);
       a.attr('href', '#' + id);
       a.attr('aria-controls', id);
-      var li = $('<li role="presentation" class="nav-item"></li>');
+      var li = $('<li role="presentation"></li>');
       li.append(a);
+      if (i === 0)
+        li.attr('class', 'active');
       tabList.append(li);
 
       // set it's attributes
@@ -6200,17 +6700,15 @@ var FlexDashboard = (function () {
       tab.addClass('no-title');
       if (fade)
         tab.addClass('fade');
+      if (i === 0) {
+        tab.addClass('active');
+        if (fade)
+          tab.addClass('in');
+      }
 
       // move it into the tab content div
       tab.detach().appendTo(tabContent);
     });
-
-    // set active tab
-    $(tabList.children()[activeTab]).tab("show");
-    var active = $(tabContent.children('div.section')[activeTab]);
-    active.addClass('active');
-    if (fade)
-      active.addClass('in');
 
     // add nav-tabs-custom
     tabset.addClass('nav-tabs-custom');
@@ -6452,11 +6950,111 @@ var FlexDashboard = (function () {
     }
   }
 
+
+  // get theme color
+  var themeColors = {
+    bootstrap: {
+      primary: "rgba(51, 122, 183, 0.4)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    cerulean: {
+      primary: "rgb(47, 164, 231)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    journal: {
+      primary: "rgba(235, 104, 100, 0.70)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    flatly: {
+      primary: "rgba(44, 62, 80, 0.70)",
+      info: "rgba(52, 152, 219, 0.70)",
+      success: "rgba(24, 188, 156, 0.70)",
+      warning: "rgba(243, 156, 18, 0.70)",
+      danger: "rgba(231, 76, 60, 0.70)"
+    },
+    readable: {
+      primary: "rgba(69, 130, 236, 0.4)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    spacelab: {
+      primary: "rgba(68, 110, 155, 0.25)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    united: {
+      primary: "rgba(221, 72, 20, 0.30)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    cosmo: {
+      primary: "rgba(39, 128, 227, 0.7)",
+      info: "rgba(153, 84, 187, 0.7)",
+      success: "rgba(63, 182, 24, 0.7)",
+      warning: "rgba(255, 117, 24, 0.7)",
+      danger: "rgba(255, 0, 57, 0.7)"
+    },
+    lumen: {
+      primary: "rgba(21, 140, 186, 0.70)",
+      info: "rgba(117, 202, 235, 0.90)",
+      success: "rgba(40, 182, 44, 0.70)",
+      warning: "rgba(255, 133, 27, 0.70)",
+      danger: "rgba(255, 65, 54, 0.70)"
+    },
+    paper: {
+      primary: "rgba(33, 150, 243, 0.35)",
+      info: "rgb(225, 190, 231)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(255, 224, 178)",
+      danger: "rgb(249, 189, 187)"
+    },
+    sandstone: {
+      primary: "rgba(50, 93, 136, 0.3)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    simplex: {
+      primary: "rgba(217, 35, 15, 0.25)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    },
+    yeti: {
+      primary: "rgba(0, 140, 186, 0.298039)",
+      info: "rgb(217, 237, 247)",
+      success: "rgb(223, 240, 216)",
+      warning: "rgb(252, 248, 227)",
+      danger: "rgb(242, 222, 222)"
+    }
+  }
+  function themeColor(color) {
+    return themeColors[_options.theme][color];
+  }
+
   FlexDashboard.prototype = {
     constructor: FlexDashboard,
     init: init,
     isMobilePhone: isMobilePhone,
-    isFillPage: isFillPage
+    isFillPage: isFillPage,
+    themeColor: themeColor
   };
 
   return FlexDashboard;
@@ -6513,14 +7111,14 @@ window.FlexDashboardUtils = {
       return "";
   },
   manageActiveNavbarMenu: function () {
-    // remove active from currently active tabs
-    $('.navbar ul.nav .active').removeClass('active');
+    // remove active from anyone currently active
+    $('.navbar ul.nav').find('li').removeClass('active');
     // find the active tab
     var activeTab = $('.dashboard-page-wrapper.tab-pane.active');
     if (activeTab.length > 0) {
       var tabId = activeTab.attr('id');
       if (tabId)
-        $(".navbar ul.nav a[href='#" + tabId + "']").tab("show");
+        $(".navbar ul.nav a[href='#" + tabId + "']").parents('li').addClass('active');
     }
   }
 };
@@ -6602,6 +7200,16 @@ window.FlexDashboardComponents.push({
 window.FlexDashboardComponents.push({
   find: function(container) {
     return container.children('div[class^="shiny-"]');
+  }
+});
+
+// datatables
+window.FlexDashboardComponents.push({
+  find: function(container) {
+    return container.find('.datatables');
+  },
+  flex: function(fillPage) {
+    return fillPage;
   }
 });
 
@@ -6773,6 +7381,21 @@ window.FlexDashboardComponents.push({
     if (chartIcon)
       setIcon(chartIcon);
 
+    // set color based on data-background if necessary
+    var dataBackground = valueBox.attr('data-background');
+    if (dataBackground)
+      valueBox.css('background-color', bgColor);
+    else {
+      // default to bg-primary if no other background is specified
+      if (!valueBox.hasClass('bg-primary') &&
+          !valueBox.hasClass('bg-info') &&
+          !valueBox.hasClass('bg-warning') &&
+          !valueBox.hasClass('bg-success') &&
+          !valueBox.hasClass('bg-danger')) {
+        valueBox.addClass('bg-primary');
+      }
+    }
+
     // handle data attributes in valueOutputSpan
     function handleValueOutput(valueOutput) {
 
@@ -6786,30 +7409,19 @@ window.FlexDashboardComponents.push({
       if (dataIcon)
         setIcon(dataIcon);
 
-      // If valueBox(color=) was an accent color, this attr should
-      // be populated with the accent color and the relevant CSS comes
-      // in through HTML dependencies
-      var dataColorAccent = valueOutput.attr('data-color-accent');
-      var valueBoxClasses = "value-box-" + (["primary", "info", "danger", "warning", "success"].join(" value-box-"));
-      if (dataColorAccent) {
-        valueBox.removeClass(valueBoxClasses);
-        valueBox.addClass('value-box-' + dataColorAccent);
-      }
-
-      // If valueBox(color=) was a CSS color, these other data-color-*
-      // attrs will be populated
+      // color
       var dataColor = valueOutput.attr('data-color');
       if (dataColor) {
-        valueBox.removeClass(valueBoxClasses);
-        valueBox.css('background-color', dataColor);
-      }
-      var dataColorText = valueOutput.attr('data-color-text');
-      if (dataColorText) {
-        valueBox.find(".inner").css('color', dataColorText);
-      }
-      var dataColorIcon = valueOutput.attr('data-color-icon');
-      if (dataColorIcon) {
-        valueBox.find(".icon").css('color', dataColorIcon);
+        if (dataColor.indexOf('bg-') === 0) {
+          valueBox.css('background-color', '');
+          if (!valueBox.hasClass(dataColor)) {
+             valueBox.removeClass('bg-primary bg-info bg-warning bg-danger bg-success');
+             valueBox.addClass(dataColor);
+          }
+        } else {
+          valueBox.removeClass('bg-primary bg-info bg-warning bg-danger bg-success');
+          valueBox.css('background-color', dataColor);
+        }
       }
 
       // url
@@ -6865,8 +7477,8 @@ alejar</em>)</h3>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<div id="htmlwidget-2a42c6181d53c413ec49" style="width:100%;height:100%;" class="leaflet html-widget "></div>
-<script type="application/json" data-for="htmlwidget-2a42c6181d53c413ec49">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"OSM(default)",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"ESRI",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addProviderTiles","args":["Stamen.Toner",null,"Stamen",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[[-42.6454831975975,-42.7291811730845,-42.7342444676708,-42.7185846810657,-42.7932387539351,-42.8168170936562,-42.7850117455841,-42.7876751011253,-42.7835380574751,-42.7863104868183,-42.7852013476862,-42.7777503450733,-42.7828156127879,-42.7795667855828,-42.765337736002,-42.7667667494528,-42.7546404514796,-42.7525597731974,-42.7541017680243,-42.754141025838,-42.7744542534692,-42.7704104107364,-42.7717802537426,-42.7682547976201,-42.77587469431,-42.7707615490651,-42.7574663493094,-42.7600325144199,-42.7655937810356,-42.7602480944788,-42.7630829769936,-42.7665554698643,-42.7640588329782,-42.7620366304019,-42.7862986810618,-42.7848856916925,-42.784409695859,-42.7634872415742,-42.7781872022414,-42.757759701944,-42.7697329137832,-42.75118925203,-42.7831981350752,-42.7818414249975,-42.7520478924647,-42.7537615006761,-42.764284262167,-42.7514409883759,-42.7513417630585,-42.7673667319743,-42.7586187785103,-42.7526602020602,-42.7578294210151,-42.7844953428814,-42.7594557059654,-42.7586967990231,-42.753126088502,-42.8092783500839,-42.7692065307139,-42.7707883506983,-42.7670569338991,-42.7536620885857,-42.7671081573167,-42.7596599010274,-42.783321611009,-42.7816105715477,-42.7863694752012,-42.7823846211087,-42.781400060516,-42.7861655705745,-42.7862993143462,-42.7851776837226,-42.7825292844913,-42.7888415878699,-42.7857440001033,-42.7627241973547,-42.7647582228042],[-65.0651557865422,-65.1261123999826,-65.0930787445914,-65.0432183215256,-65.0177617445963,-65.0332247244741,-64.9982156490256,-65.0725315751361,-65.0173160410635,-65.0403128483602,-65.0267354868362,-65.0315260616688,-65.0457655883174,-65.0405658763575,-65.0641139610892,-65.0585700494765,-65.0584747321889,-65.054465778327,-65.0491802017963,-65.0425681480767,-65.0470006240325,-65.0552543933751,-65.0526310668159,-65.035203599355,-65.0412067455706,-65.0416960297993,-65.0473229765165,-65.042059934924,-65.0427298862509,-65.046418924358,-65.0476460152866,-65.0507783296326,-65.0483080326178,-65.0466512226139,-65.0373690845551,-65.0390670592438,-65.0376945522404,-65.052859252729,-65.061825046505,-65.0375423041869,-65.0465198041965,-65.0406504850475,-65.0392545912344,-65.0383204606421,-65.0525118130399,-65.0533143107954,-65.0423564711477,-65.0486922621638,-65.045996969591,-65.0527755460417,-65.0575805082837,-65.0533659569213,-65.0516601153432,-65.0349756378869,-65.0606675584295,-65.0551019582427,-65.0562395200052,-65.0420944502078,-65.0494816539799,-65.050619944517,-65.0522280492434,-65.037535373811,-65.0481432947398,-65.0546390345182,-65.0505272215764,-65.0629580872848,-65.0586269005979,-65.0645527599272,-65.0616581467936,-65.0609694986143,-65.0682879839565,-65.0677952692474,-65.062876803351,-65.0659389317296,-65.0631748720654,-65.050730918033,-65.0492726969886],10,null,"centroides",{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.1},null,null,["EL DORADILLO","MEGA MADRYN INDUSTRIAL","LOS GOYOS","PARQUE PESQUERO","PROCREAR","SOLANAS DE LA PATAGONIA","EL INDIO","PRESIDENTE JUAN DOMINGO PERON","DEL DESEMBARCO","COVITRE I","LUIS PIEDRA BUENA","VILLA DEL PARQUE","LAS BARDAS","BAHIA NUEVA","PARQUE AGROPECUARIO","PARQUE INDUSTRIAL LIVIANO","PUJOL I","COVIMAR V","ROCA","PATAGONIA","VILLA PADILLA","ROQUE AZOLINA","GUEMEZ","PARRY MADRYN","SANTA MARIA DEL MAR","CONQUISTADORES DEL DESIERTO","EL PORVENIR","DON BOSCO","COLONOS GALESES","UNION OBRERA","160 VIVIENDAS","140 VIVIENDAS","81 VIVIENDAS","PERITO MORENO","COVITRE II","40 VIVIENDAS","COVIMAR II","COMERCIO II","MALVINAS","AGUA Y ENERGIA","INMIGRANTES","COVIMAR I","COVITRE III","PROVINCIAS UNIDAS","COVIMAR IV","TROPEROS PATAGONICOS","COVIMAR VII","COMERCIO I","FRANCISCO MIGUEL FALCON","COMERCIO II","COMERCIO III","COVIMAR VI","VEPAM","GOB. GALLINA","PUJOL II","COMERCIO IV","AMERICA","QUINTAS EL MIRADOR","159 VIVIENDAS","DEL VILLAR","ANON CARR","BARRANCAS DEL GOLFO","COVIMAR III","SEC","GOB. FONTANA","SVOA 70 VIV","SEYOM 50 VIV","112 VIVIENDAS","SVOA 100 VIVIENDAS","GOB. ROQUE GONZALEZ","33 VIVIENDAS","SAN MIGUEL","SVOA 18 VIV","84 VIVIENDAS","UOCRA 61 VIV","RUCAL HUE","630 VIVIENDAS"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addSearchFeatures","args":["centroides",{"openPopup":true,"url":"","propertyLoc":"loc","propertyName":"label","moveToLocation":true,"zoom":17,"container":"","minLength":1,"initial":false,"casesensitive":false,"autoType":true,"delayType":400,"tooltipLimit":-1,"tipAutoSubmit":true,"firstTipSubmit":false,"autoResize":true,"collapsed":true,"autoCollapse":false,"autoCollapseTime":1200,"textErr":"Location Not Found","textCancel":"Cancel","textPlaceholder":"Search...","position":"topleft","hideMarkerOnCollapse":false}]},{"method":"addPolygons","args":[[[[{"lng":[-65.0816330351493,-65.0771991439973,-65.043410417056,-65.0371058719628,-65.0374869115082,-65.0955542476815,-65.0894658411432,-65.0816330351493],"lat":[-42.6103641542939,-42.6106352928514,-42.620379198339,-42.6521277767771,-42.6714655989698,-42.6732317404815,-42.6428416978458,-42.6103641542939]}]],[[{"lng":[-65.1372209064742,-65.1072154904704,-65.111734328889,-65.1127073855348,-65.1151307769252,-65.1445630365043,-65.1372209064742],"lat":[-42.712591210898,-42.7164002841179,-42.7349945045205,-42.7348486668722,-42.744888276202,-42.7433735935406,-42.712591210898]}]],[[{"lng":[-65.1034380320785,-65.0834562395619,-65.0827369539033,-65.1026710695822,-65.1034380320785],"lat":[-42.7271457868789,-42.726642511846,-42.7413357223769,-42.7418643180627,-42.7271457868789]}]],[[{"lng":[-65.0577224708461,-65.0472835197383,-65.0160033097061,-65.0243711777023,-65.018394627821,-65.0243935347702,-65.0280658813174,-65.0295317923019,-65.0319590741659,-65.0342160501082,-65.0346004699355,-65.0390075059338,-65.038894874694,-65.0426421845942,-65.0410695773009,-65.0575465570614,-65.0676857082841,-65.0560179807337,-65.0577224708461],"lat":[-42.7075869977933,-42.7068168146386,-42.7033824680008,-42.7090780263811,-42.7143952907865,-42.7187156477392,-42.7210987094163,-42.7226960740772,-42.7237902809649,-42.7269280747632,-42.7278515991825,-42.7276266386372,-42.7259385071033,-42.7257653857718,-42.7333190012335,-42.7352452191204,-42.7251028357096,-42.7171337121588,-42.7075869977933]}]],[[{"lng":[-65.0177724334581,-65.0153373009747,-65.0188260685361,-65.0194742258456,-65.0177724334581],"lat":[-42.7909156907753,-42.7948722509316,-42.7951568272744,-42.7911058820153,-42.7909156907753]}]],[[{"lng":[-65.0368200172404,-65.0272362275978,-65.0251166034321,-65.0240621956187,-65.0308420935596,-65.0315793210823,-65.0436840457676,-65.0440235064359,-65.0426144193892,-65.0422013689677,-65.0394966563097,-65.0383671798789,-65.0368574956445,-65.0368200172404],"lat":[-42.8110712311486,-42.8125425900867,-42.8159627916886,-42.8228430425955,-42.8234310640056,-42.8190276818933,-42.8199474400284,-42.8181992071493,-42.8145025000647,-42.8133907961255,-42.8139423148695,-42.8109375902429,-42.8111812916437,-42.8110712311486]}]],[[{"lng":[-65.0065375690473,-65.0051202842404,-65.0038307474584,-65.0018242085808,-65.0011507949938,-65.000629885478,-64.9997488493608,-64.9965055417263,-64.9964321190263,-64.9962401396465,-64.9956870227988,-64.9943551254901,-64.9944670708143,-64.9905206264426,-64.9880211205583,-64.9895829327585,-64.9898087398919,-64.9940646718378,-64.9937218790522,-65.0059917582308,-65.0060172577239,-65.0065375690473],"lat":[-42.7849492111335,-42.7853771053467,-42.7851741705014,-42.7842364232485,-42.7834892194529,-42.7808133235657,-42.7800323449971,-42.781556930868,-42.7818055282662,-42.7818741442728,-42.781741478592,-42.7825542012136,-42.7826063106167,-42.7852045922433,-42.7865789162949,-42.7867109380209,-42.7865643445896,-42.7869628911388,-42.7872346829674,-42.7882557348368,-42.7881012080069,-42.7849492111335]}]],[[{"lng":[-65.0674463533327,-65.0662681849546,-65.0644261123401,-65.0656192063453,-65.0630362451011,-65.0630189608256,-65.0606362143702,-65.061591833632,-65.0627978669652,-65.0640751067705,-65.0670140741442,-65.0665285570875,-65.0674983678267,-65.06784387837,-65.0694772389455,-65.0692836669288,-65.0722126325293,-65.0728206863079,-65.0733551564748,-65.0747561968257,-65.0750745186323,-65.0747861389843,-65.0756569542323,-65.0762270386606,-65.0769314041159,-65.0775137284535,-65.0776724627394,-65.0783185517693,-65.0798358116631,-65.0792555197274,-65.0801248575278,-65.0795166756709,-65.0808367494864,-65.0800421298296,-65.0806624446701,-65.0723561744257,-65.0676251499138,-65.0662991109969,-65.0725656823748,-65.0693393512777,-65.067448135783,-65.0674463533327],"lat":[-42.7882110145274,-42.7900974028309,-42.7894708922435,-42.7875835469814,-42.7866964500355,-42.7867237143242,-42.7904820217876,-42.7914273129293,-42.7920430181359,-42.790211783069,-42.7912064467904,-42.7917323875692,-42.7921379161459,-42.7915625807858,-42.7921387935735,-42.7925775769584,-42.7936318893745,-42.7934026887021,-42.7924925837073,-42.7930224711324,-42.7931265826966,-42.7939480342659,-42.7938220599103,-42.7933215441368,-42.7926854325643,-42.7923457339867,-42.7922322625492,-42.7917854315457,-42.7893333745007,-42.789160935669,-42.7877643963261,-42.7875314718424,-42.7853501794434,-42.7851130223471,-42.7841639700995,-42.7812837254659,-42.7796717449871,-42.7815490898394,-42.7837118142989,-42.7888610514877,-42.7882116266247,-42.7882110145274]}]],[[{"lng":[-65.0277534638059,-65.0271501431601,-65.0252979810566,-65.0223826443009,-65.0187485107043,-65.0165967323997,-65.0149691138599,-65.01346592919,-65.01286640553,-65.0106132884116,-65.0092141085338,-65.0065375690473,-65.0060172577239,-65.0160868336021,-65.0187052032711,-65.0250796154261,-65.0288773088968,-65.0286949098982,-65.0277534638059],"lat":[-42.7726361885895,-42.7732952695695,-42.7751633623841,-42.7774498389589,-42.7802916286308,-42.7818543201154,-42.7828396160434,-42.7832873426598,-42.7834704454541,-42.7841012700633,-42.784469064286,-42.7849492111335,-42.7881012080069,-42.7890490712077,-42.7892719341779,-42.7791229412567,-42.7730747639071,-42.7730035847342,-42.7726361885895]}]],[[{"lng":[-65.0382249617224,-65.0403205743079,-65.0424039221851,-65.0410947374301,-65.0402688250684,-65.0392750770835,-65.0391839748894,-65.0382249617224],"lat":[-42.7875935707947,-42.7883226930682,-42.7850317738027,-42.784585380332,-42.784303756081,-42.7859383043341,-42.786088147281,-42.7875935707947]}]],[[{"lng":[-65.0250796154261,-65.0187052032711,-65.0294897237493,-65.0320070493039,-65.032419364271,-65.0344890420512,-65.0250796154261],"lat":[-42.7791229412567,-42.7892719341779,-42.7902560755469,-42.7862678921198,-42.7856142073705,-42.7823327021424,-42.7791229412567]}]],[[{"lng":[-65.0288773088968,-65.0250796154261,-65.0344890420512,-65.0345029632398,-65.0366383328451,-65.0378709282252,-65.0351859583625,-65.0356288914819,-65.0288773088968],"lat":[-42.7730747639071,-42.7791229412567,-42.7823327021424,-42.7823374501345,-42.7789388809323,-42.776976949414,-42.776053883779,-42.7753333426414,-42.7730747639071]}]],[[{"lng":[-65.0410947374301,-65.0424039221851,-65.0462962063989,-65.0509143567028,-65.0457237244846,-65.0445476783647,-65.0444372919871,-65.042666079154,-65.0426237183847,-65.0410947374301],"lat":[-42.784585380332,-42.7850317738027,-42.7863495446433,-42.7814598459072,-42.7796761361812,-42.7792781227606,-42.779240291276,-42.7821314717602,-42.7822006142499,-42.784585380332]}]],[[{"lng":[-65.0426237183847,-65.042666079154,-65.0444372919871,-65.0378709282252,-65.0366383328451,-65.0386528098042,-65.0380291292746,-65.0426237183847],"lat":[-42.7822006142499,-42.7821314717602,-42.779240291276,-42.776976949414,-42.7789388809323,-42.7796377177271,-42.7806271450922,-42.7822006142499]}]],[[{"lng":[-65.0646940254067,-65.0679190139373,-65.0643774983071,-65.0600409255217,-65.059918286293,-65.0646940254067],"lat":[-42.7695906360305,-42.7685560557574,-42.7611530697343,-42.7628508997729,-42.7628994244605,-42.7695906360305]}]],[[{"lng":[-65.0579268945949,-65.0646940254067,-65.059918286293,-65.0599028531283,-65.0592459512535,-65.0579179951919,-65.0566434328808,-65.0550501473175,-65.0532725781601,-65.0534081556795,-65.0539607906934,-65.0579268945949],"lat":[-42.7718432674414,-42.7695906360305,-42.7628994244605,-42.7629049528293,-42.7620000984347,-42.7625176662166,-42.7606832073416,-42.7631032911605,-42.7657956085852,-42.7659717933216,-42.7666899372593,-42.7718432674414]}]],[[{"lng":[-65.0604768059936,-65.0604783023395,-65.0605061901787,-65.060805350204,-65.0589031356605,-65.0588006985905,-65.0587887205747,-65.0585984513736,-65.0585820192436,-65.0557664540792,-65.055752434054,-65.0557110738089,-65.0556807991407,-65.0556430188116,-65.0556743103082,-65.0567223520763,-65.0593483433241,-65.0604714865885,-65.0604768059936],"lat":[-42.7537612324188,-42.7537122161381,-42.7528341827597,-42.7514528840286,-42.7528609359092,-42.7529349600071,-42.7529397995577,-42.7530166749839,-42.7530233141164,-42.7541608408444,-42.7549529300042,-42.7555827483267,-42.7557232681668,-42.7558118486639,-42.75581955429,-42.7560776316569,-42.7570135612772,-42.755347256453,-42.7537612324188]}]],[[{"lng":[-65.0546540008509,-65.0539441248682,-65.0543631881529,-65.0549611896182,-65.0546540008509],"lat":[-42.7520881825856,-42.7519300918134,-42.7531795664941,-42.7530531812976,-42.7520881825856]}]],[[{"lng":[-65.0456337886072,-65.0466587239065,-65.0492149624419,-65.0510869872931,-65.0521382198327,-65.0526722309859,-65.0514680528191,-65.0486871651828,-65.0474069596445,-65.0456337886072],"lat":[-42.7528167410661,-42.7562362037939,-42.7559863352878,-42.7558687401795,-42.7556265352964,-42.7554108227342,-42.7517617224657,-42.7522342589036,-42.7524784906008,-42.7528167410661]}]],[[{"lng":[-65.0466587239065,-65.0456337886072,-65.0456310597461,-65.0445420409929,-65.0445359257519,-65.0428051334642,-65.0428522086699,-65.0429239882305,-65.0429707429134,-65.0430525110611,-65.0432163328642,-65.0411524958236,-65.0399610879524,-65.0390606470527,-65.0384460170492,-65.0384507582122,-65.0384827121304,-65.0385054909941,-65.0385459088098,-65.0386127194837,-65.0387920033854,-65.0441271108822,-65.0454298568943,-65.0466587239065],"lat":[-42.7562362037939,-42.7528167410661,-42.7528076070128,-42.7497392723282,-42.7497220419424,-42.74983729607,-42.7504425990377,-42.7511780909611,-42.7517398574799,-42.7522763994376,-42.7524308707256,-42.7524442295504,-42.7524648683222,-42.752477729784,-42.7525008641192,-42.7525617981331,-42.7529724710775,-42.7532652229327,-42.7537846629337,-42.7546432806384,-42.7569472442938,-42.7567335257875,-42.7566813012782,-42.7562362037939]}]],[[{"lng":[-65.0524899680145,-65.0513560095104,-65.0501754960126,-65.0499757024021,-65.0496676784423,-65.0496497584093,-65.0496263911148,-65.0494285448441,-65.0463203006642,-65.0443817811036,-65.0431260331164,-65.0423983467184,-65.0476836569919,-65.049054794227,-65.0497942088217,-65.0524899680145],"lat":[-42.7745232351717,-42.7741262023183,-42.7737128519084,-42.7736428935155,-42.7735349772311,-42.7735287956728,-42.7735207350626,-42.7734527707541,-42.7723849600846,-42.7717189361279,-42.7737119685978,-42.7748668369091,-42.7766502829597,-42.7771429033498,-42.7759795646823,-42.7745232351717]}]],[[{"lng":[-65.0549417893166,-65.0560238821796,-65.0579268945949,-65.0539607906934,-65.0536929712885,-65.0531124433487,-65.0530853534438,-65.055382006729,-65.0531161431231,-65.0547663985528,-65.0549417893166],"lat":[-42.7731981318013,-42.7726639739312,-42.7718432674414,-42.7666899372593,-42.7671148440157,-42.7680358534792,-42.7680788288167,-42.7712880049049,-42.7724030234579,-42.7730866489558,-42.7731981318013]}]],[[{"lng":[-65.0549417893166,-65.0547663985528,-65.0531161431231,-65.055382006729,-65.0530853534438,-65.0519768523386,-65.050226532286,-65.0496497584093,-65.0499757024021,-65.0501754960126,-65.0513560095104,-65.0524899680145,-65.0549417893166],"lat":[-42.7731981318013,-42.7730866489558,-42.7724030234579,-42.7712880049049,-42.7680788288167,-42.7698373831052,-42.7726139172179,-42.7735287956728,-42.7736428935155,-42.7737128519084,-42.7741262023183,-42.7745232351717,-42.7731981318013]}]],[[{"lng":[-65.0357436828365,-65.0354472560236,-65.0355602477925,-65.0356824887768,-65.0354789814491,-65.0352717034155,-65.0351302826683,-65.0354027815833,-65.035192818827,-65.0352174497814,-65.0353069146585,-65.0350065374401,-65.0346522419154,-65.0342007212829,-65.0322178190124,-65.0317255185113,-65.0311325108996,-65.0303893735601,-65.0304239097416,-65.0304749765194,-65.0307281878367,-65.0306770670048,-65.0296814018584,-65.0287162262789,-65.0277534638059,-65.0286949098982,-65.0288773088968,-65.0356288914819,-65.0378042792408,-65.0406950863831,-65.0387961817447,-65.0401418283847,-65.0392881102625,-65.0390613740344,-65.0389658136029,-65.0367964911159,-65.0358462622402,-65.0357436828365],"lat":[-42.7599694424063,-42.7611186837481,-42.7612176627441,-42.7614026089896,-42.7618625235482,-42.7618068328221,-42.7621303495839,-42.7627131858861,-42.7630430231918,-42.7630889255578,-42.7631195500065,-42.7635914151086,-42.7637216076958,-42.7635670491433,-42.7666965885916,-42.7674735125373,-42.768415565605,-42.7692008612107,-42.7692186019046,-42.7692448340095,-42.7693267201618,-42.7694221512603,-42.7705169457742,-42.7715781692756,-42.7726361885895,-42.7730035847342,-42.7730747639071,-42.7753333426414,-42.7718679705993,-42.767262299087,-42.7651361187077,-42.7629663190643,-42.7619127907575,-42.7613663452179,-42.7597987446839,-42.7602399693656,-42.7599962565615,-42.7599694424063]}]],[[{"lng":[-65.0378042792408,-65.0356288914819,-65.0351859583625,-65.0378709282252,-65.0444372919871,-65.0445476783647,-65.0457237244846,-65.0476836569919,-65.0423983467184,-65.0431260331164,-65.0378042792408],"lat":[-42.7718679705993,-42.7753333426414,-42.776053883779,-42.776976949414,-42.779240291276,-42.7792781227606,-42.7796761361812,-42.7766502829597,-42.7748668369091,-42.7737119685978,-42.7718679705993]}]],[[{"lng":[-65.0406950863831,-65.0378042792408,-65.0431260331164,-65.0443817811036,-65.0463203006642,-65.0422009668169,-65.0421895232717,-65.0420335167173,-65.0416777919553,-65.0406950863831],"lat":[-42.767262299087,-42.7718679705993,-42.7737119685978,-42.7717189361279,-42.7723849600846,-42.7676335539486,-42.7676417083254,-42.7677528742726,-42.7684314925277,-42.767262299087]}]],[[{"lng":[-65.0492149624419,-65.0466587239065,-65.0454298568943,-65.0441271108822,-65.0441560721653,-65.0463390134087,-65.0480697707708,-65.0496907998568,-65.0497481689553,-65.0497722157988,-65.0500043635151,-65.0500696991137,-65.0505401510095,-65.0492149624419],"lat":[-42.7559863352878,-42.7562362037939,-42.7566813012782,-42.7567335257875,-42.7569815660502,-42.7594371779853,-42.7586177362628,-42.7578787544224,-42.7578734460699,-42.7578712210109,-42.7577660019616,-42.7576423889192,-42.7573941381797,-42.7559863352878]}]],[[{"lng":[-65.0463390134087,-65.0441560721653,-65.0441271108822,-65.0387920033854,-65.038796669365,-65.0388001313895,-65.0388044176078,-65.0388786978349,-65.0389658136029,-65.0390613740344,-65.0392881102625,-65.0401418283847,-65.0412764273497,-65.0413110903146,-65.0427459622175,-65.0433376606051,-65.0451816636032,-65.0442866500203,-65.0463390134087],"lat":[-42.7594371779853,-42.7569815660502,-42.7567335257875,-42.7569472442938,-42.75702379558,-42.7570805943575,-42.7571509149254,-42.758369565145,-42.7597987446839,-42.7613663452179,-42.7619127907575,-42.7629663190643,-42.7642760248888,-42.7642593511957,-42.7635691271945,-42.7632844896094,-42.762397393148,-42.7604088256091,-42.7594371779853]}]],[[{"lng":[-65.0413110903146,-65.0412764273497,-65.0401418283847,-65.0387961817447,-65.0406950863831,-65.0416777919553,-65.0420335167173,-65.0421895232717,-65.0422009668169,-65.043570752821,-65.0457190771396,-65.0471261450683,-65.0470847354747,-65.0468189094103,-65.0467203720248,-65.0457981717162,-65.0442561309839,-65.0433376606051,-65.0427459622175,-65.0433310256668,-65.0426987862665,-65.041907794265,-65.0418314572513,-65.0413110903146],"lat":[-42.7642593511957,-42.7642760248888,-42.7629663190643,-42.7651361187077,-42.767262299087,-42.7684314925277,-42.7677528742726,-42.7676417083254,-42.7676335539486,-42.7670086264286,-42.7666966276853,-42.7664922571698,-42.7664116224797,-42.7659016869937,-42.7657130731027,-42.7639421446977,-42.7643417483651,-42.7632844896094,-42.7635691271945,-42.7642055558948,-42.7647820604999,-42.7648724100368,-42.764881978142,-42.7642593511957]}]],[[{"lng":[-65.0480697707708,-65.0463390134087,-65.0442866500203,-65.0451816636032,-65.0461207331557,-65.0488803519769,-65.0488137410249,-65.0480697707708],"lat":[-42.7586177362628,-42.7594371779853,-42.7604088256091,-42.762397393148,-42.76102133866,-42.7597345099843,-42.7596427370324,-42.7586177362628]}]],[[{"lng":[-65.0457981717162,-65.0467203720248,-65.0486662389916,-65.0499763488069,-65.0491815307007,-65.0473427504522,-65.0463992052856,-65.0455894728285,-65.0457981717162],"lat":[-42.7639421446977,-42.7657130731027,-42.7627162396604,-42.7621133104493,-42.7609343133735,-42.7619092855402,-42.7633443738131,-42.7635639718009,-42.7639421446977]}]],[[{"lng":[-65.0510837892845,-65.0518548736579,-65.0524260611537,-65.0527838872,-65.0510922285532,-65.0506103850887,-65.0491970307366,-65.0484321547159,-65.0510837892845],"lat":[-42.7687325326143,-42.767591678613,-42.7667147638794,-42.7661653976493,-42.7637325145227,-42.7645559045189,-42.7666554689822,-42.767791638975,-42.7687325326143]}]],[[{"lng":[-65.0473476458733,-65.0491458458473,-65.0493133497978,-65.0503350618801,-65.0499763488069,-65.0486662389916,-65.0467203720248,-65.0468189094103,-65.0470847354747,-65.0473476458733],"lat":[-42.766011299243,-42.7632727668613,-42.7630611310193,-42.7625958411704,-42.7621133104493,-42.7627162396604,-42.7657130731027,-42.7659016869937,-42.7664116224797,-42.766011299243]}]],[[{"lng":[-65.0457981717162,-65.0455894728285,-65.0463992052856,-65.0473427504522,-65.0491815307007,-65.0499763488069,-65.0504491156301,-65.0488803519769,-65.0461207331557,-65.0451816636032,-65.0433376606051,-65.0442561309839,-65.0457981717162],"lat":[-42.7639421446977,-42.7635639718009,-42.7633443738131,-42.7619092855402,-42.7609343133735,-42.7621133104493,-42.7618957305306,-42.7597345099843,-42.76102133866,-42.762397393148,-42.7632844896094,-42.7643417483651,-42.7639421446977]}]],[[{"lng":[-65.0354496962321,-65.0367858269521,-65.0382249617224,-65.0391839748894,-65.0392750770835,-65.0380016570447,-65.0378513733494,-65.0365222966434,-65.0364966772824,-65.0364555680781,-65.0363411878339,-65.0362151518331,-65.0361358529862,-65.0360673076839,-65.0354496962321],"lat":[-42.7866544269994,-42.7871019545478,-42.7875935707947,-42.786088147281,-42.7859383043341,-42.785507257188,-42.7854563854865,-42.7850065345284,-42.7850483197619,-42.7851113845677,-42.7852868522396,-42.7854801993899,-42.7856018481053,-42.7857069998657,-42.7866544269994]}]],[[{"lng":[-65.0378513733494,-65.0380016570447,-65.0392750770835,-65.0402688250684,-65.0396227606905,-65.0388822589741,-65.0378513733494],"lat":[-42.7854563854865,-42.785507257188,-42.7859383043341,-42.784303756081,-42.7840834529176,-42.7838309394188,-42.7854563854865]}]],[[{"lng":[-65.0365222966434,-65.0378513733494,-65.0388822589741,-65.0388678911931,-65.0380975130861,-65.0375104751197,-65.0368000634797,-65.0366307834207,-65.0365990137712,-65.036537902573,-65.0365222966434],"lat":[-42.7850065345284,-42.7854563854865,-42.7838309394188,-42.7838260405109,-42.7835633323253,-42.7833631399552,-42.7845465165844,-42.7848284893962,-42.784881408348,-42.7849810811924,-42.7850065345284]}]],[[{"lng":[-65.0504491156301,-65.0514003025705,-65.0532725781601,-65.0550501473175,-65.050831342378,-65.0508003671264,-65.0504491156301],"lat":[-42.7618957305306,-42.7632060547238,-42.7657956085852,-42.7631032911605,-42.7617122336885,-42.761759344197,-42.7618957305306]}]],[[{"lng":[-65.0617073619758,-65.0618406501135,-65.0630536601427,-65.0642882060788,-65.0662991109969,-65.0676251499138,-65.0683168390982,-65.0634910353089,-65.0613732094565,-65.0611400456508,-65.0601359316007,-65.0575666935705,-65.0574785705102,-65.0574082291508,-65.0568786739608,-65.0558129074393,-65.0617073619758],"lat":[-42.7800075692669,-42.7800525568164,-42.7804597420576,-42.7808741375876,-42.7815490898394,-42.7796717449871,-42.7786924312101,-42.7771081387291,-42.7763527246168,-42.7762682805295,-42.7754517832792,-42.7744016476811,-42.7750714026504,-42.7751689024746,-42.7760811728244,-42.7780660404952,-42.7800075692669]}]],[[{"lng":[-65.0364710207373,-65.0366463311593,-65.0361507078338,-65.0359893511854,-65.0388786978349,-65.0388044176078,-65.0364710207373],"lat":[-42.7570273436089,-42.7577065618776,-42.7576582460534,-42.7583537092428,-42.758369565145,-42.7571509149254,-42.7570273436089]}]],[[{"lng":[-65.0480624644986,-65.0471261450683,-65.0457190771396,-65.043570752821,-65.0422009668169,-65.0463203006642,-65.0494285448441,-65.0496497584093,-65.050226532286,-65.0494945384309,-65.0480624644986],"lat":[-42.7683407709662,-42.7664922571698,-42.7666966276853,-42.7670086264286,-42.7676335539486,-42.7723849600846,-42.7734527707541,-42.7735287956728,-42.7726139172179,-42.7711687298733,-42.7683407709662]}]],[[{"lng":[-65.0384460170492,-65.0390606470527,-65.0399610879524,-65.0411524958236,-65.0432163328642,-65.0430525110611,-65.0429707429134,-65.0429239882305,-65.0428522086699,-65.0428051334642,-65.0426298478696,-65.0382505229947,-65.0382930646292,-65.0383646045675,-65.0383887413469,-65.0384113152388,-65.0384311694961,-65.0384460170492],"lat":[-42.7525008641192,-42.752477729784,-42.7524648683222,-42.7524442295504,-42.7524308707256,-42.7522763994376,-42.7517398574799,-42.7511780909611,-42.7504425990377,-42.74983729607,-42.749848966921,-42.7499882577834,-42.7505350436561,-42.7514545242393,-42.7517647413014,-42.7520548689172,-42.7523100408404,-42.7525008641192]}]],[[{"lng":[-65.0380975130861,-65.0388678911931,-65.0388822589741,-65.0396227606905,-65.040054583503,-65.0403989995826,-65.0389135989935,-65.0380975130861],"lat":[-42.7835633323253,-42.7838260405109,-42.7838309394188,-42.7840834529176,-42.7833578174759,-42.7828146416914,-42.7823199139782,-42.7835633323253]}]],[[{"lng":[-65.0380975130861,-65.0389135989935,-65.0403989995826,-65.040054583503,-65.0396227606905,-65.0402688250684,-65.0410947374301,-65.0426237183847,-65.0380291292746,-65.0386528098042,-65.0366383328451,-65.0345029632398,-65.0373032126144,-65.0375104751197,-65.0380975130861],"lat":[-42.7835633323253,-42.7823199139782,-42.7828146416914,-42.7833578174759,-42.7840834529176,-42.784303756081,-42.784585380332,-42.7822006142499,-42.7806271450922,-42.7796377177271,-42.7789388809323,-42.7823374501345,-42.7832924586009,-42.7833631399552,-42.7835633323253]}]],[[{"lng":[-65.0527354452185,-65.0520004800141,-65.0523682894117,-65.0530103191778,-65.0527354452185],"lat":[-42.7516609045468,-42.7514966885268,-42.752573921155,-42.7524618829784,-42.7516609045468]}]],[[{"lng":[-65.0523682894117,-65.0520004800141,-65.0513304354361,-65.0514680528191,-65.0526722309859,-65.0553653849852,-65.0549611896182,-65.0543631881529,-65.0527008974794,-65.0523682894117],"lat":[-42.752573921155,-42.7514966885268,-42.7513496309353,-42.7517617224657,-42.7554108227342,-42.7543228694768,-42.7530531812976,-42.7531795664941,-42.7535126322126,-42.752573921155]}]],[[{"lng":[-65.0413110903146,-65.0418314572513,-65.041907794265,-65.0426987862665,-65.0433310256668,-65.0427459622175,-65.0413110903146],"lat":[-42.7642593511957,-42.764881978142,-42.7648724100368,-42.7647820604999,-42.7642055558948,-42.7635691271945,-42.7642593511957]}]],[[{"lng":[-65.0474069596445,-65.0486871651828,-65.0514680528191,-65.0513304354361,-65.0495843267788,-65.0481371043222,-65.04658879773,-65.0474069596445],"lat":[-42.7524784906008,-42.7522342589036,-42.7517617224657,-42.7513496309353,-42.7509567986182,-42.7506270226027,-42.7502741886711,-42.7524784906008]}]],[[{"lng":[-65.0474069596445,-65.04658879773,-65.0452542520456,-65.0445420409929,-65.0456310597461,-65.0456337886072,-65.0474069596445],"lat":[-42.7524784906008,-42.7502741886711,-42.7499700474267,-42.7497392723282,-42.7528076070128,-42.7528167410661,-42.7524784906008]}]],[[{"lng":[-65.0518548736579,-65.0531124433487,-65.0536929712885,-65.0524260611537,-65.0518548736579],"lat":[-42.767591678613,-42.7680358534792,-42.7671148440157,-42.7667147638794,-42.767591678613]}]],[[{"lng":[-65.0589215517349,-65.0578968752753,-65.0572882390621,-65.0564802149219,-65.0566630565165,-65.0569753202497,-65.0582470809882,-65.0589215517349],"lat":[-42.7575858748759,-42.7572113849527,-42.7581504321981,-42.7593996516262,-42.7600457545837,-42.7602294711298,-42.7584885894014,-42.7575858748759]}]],[[{"lng":[-65.0523682894117,-65.0527008974794,-65.0543631881529,-65.0539441248682,-65.0527354452185,-65.0530103191778,-65.0523682894117],"lat":[-42.752573921155,-42.7535126322126,-42.7531795664941,-42.7519300918134,-42.7516609045468,-42.7524618829784,-42.752573921155]}]],[[{"lng":[-65.0539476465246,-65.0544962594619,-65.0544214179153,-65.0551205003592,-65.0556430188116,-65.0556807991407,-65.0557110738089,-65.055752434054,-65.0557664540792,-65.0553653849852,-65.0526722309859,-65.0521382198327,-65.0510869872931,-65.0492149624419,-65.0505401510095,-65.0500696991137,-65.0500043635151,-65.0497722157988,-65.0497481689553,-65.0496907998568,-65.0480697707708,-65.0488137410249,-65.0488803519769,-65.0504491156301,-65.0508003671264,-65.050831342378,-65.0527118692516,-65.0527260031043,-65.0539476465246],"lat":[-42.7569722058769,-42.7561376576004,-42.7559384589806,-42.7556864952732,-42.7558118486639,-42.7557232681668,-42.7555827483267,-42.7549529300042,-42.7541608408444,-42.7543228694768,-42.7554108227342,-42.7556265352964,-42.7558687401795,-42.7559863352878,-42.7573941381797,-42.7576423889192,-42.7577660019616,-42.7578712210109,-42.7578734460699,-42.7578787544224,-42.7586177362628,-42.7596427370324,-42.7597345099843,-42.7618957305306,-42.761759344197,-42.7617122336885,-42.75885197288,-42.7588304743092,-42.7569722058769]}]],[[{"lng":[-65.0375104751197,-65.0373032126144,-65.0345029632398,-65.0344890420512,-65.032419364271,-65.0354496962321,-65.0360673076839,-65.0361358529862,-65.0362151518331,-65.0363411878339,-65.0364555680781,-65.0364966772824,-65.0365222966434,-65.036537902573,-65.0365990137712,-65.0366307834207,-65.0368000634797,-65.0375104751197],"lat":[-42.7833631399552,-42.7832924586009,-42.7823374501345,-42.7823327021424,-42.7856142073705,-42.7866544269994,-42.7857069998657,-42.7856018481053,-42.7854801993899,-42.7852868522396,-42.7851113845677,-42.7850483197619,-42.7850065345284,-42.7849810811924,-42.784881408348,-42.7848284893962,-42.7845465165844,-42.7833631399552]}]],[[{"lng":[-65.059918286293,-65.0600409255217,-65.0643774983071,-65.0648349058454,-65.0642887987823,-65.0604768059936,-65.0604714865885,-65.0593483433241,-65.0593409141578,-65.0589215517349,-65.0582470809882,-65.0569753202497,-65.0566434328808,-65.0579179951919,-65.0592459512535,-65.0599028531283,-65.059918286293],"lat":[-42.7628994244605,-42.7628508997729,-42.7611530697343,-42.7609739730699,-42.7600344399328,-42.7537612324188,-42.755347256453,-42.7570135612772,-42.757024582926,-42.7575858748759,-42.7584885894014,-42.7602294711298,-42.7606832073416,-42.7625176662166,-42.7620000984347,-42.7629049528293,-42.7628994244605]}]],[[{"lng":[-65.0569753202497,-65.0566630565165,-65.0564802149219,-65.0572882390621,-65.0539476465246,-65.0527260031043,-65.0566434328808,-65.0569753202497],"lat":[-42.7602294711298,-42.7600457545837,-42.7593996516262,-42.7581504321981,-42.7569722058769,-42.7588304743092,-42.7606832073416,-42.7602294711298]}]],[[{"lng":[-65.0585984513736,-65.0584088196282,-65.0582821418489,-65.0546540008509,-65.0549611896182,-65.0553653849852,-65.0557664540792,-65.0585820192436,-65.0585984513736],"lat":[-42.7530166749839,-42.7529216833211,-42.7528695527787,-42.7520881825856,-42.7530531812976,-42.7543228694768,-42.7541608408444,-42.7530233141164,-42.7530166749839]}]],[[{"lng":[-65.0426144193892,-65.0479538024153,-65.0478719970557,-65.0478977866438,-65.0457854636439,-65.0464426698573,-65.0462994770176,-65.0446551482797,-65.0437898422363,-65.0429891650087,-65.0424884968674,-65.0417857166619,-65.0414767908916,-65.0412102588692,-65.0406419553687,-65.0401828243133,-65.039931686558,-65.0361169906867,-65.0358600289002,-65.0367185594981,-65.0368360714834,-65.0371748116197,-65.0373616227511,-65.0373761054266,-65.0370281373161,-65.0372709231968,-65.0372402086716,-65.0375696175878,-65.0378636139327,-65.0364901225512,-65.0368200172404,-65.0368574956445,-65.0383671798789,-65.0394966563097,-65.0422013689677,-65.0426144193892],"lat":[-42.8145025000647,-42.813440363627,-42.8130921785836,-42.8123723239245,-42.806391858439,-42.8062442518386,-42.8058739855895,-42.8053544022252,-42.8053169007862,-42.8051424527304,-42.8049321895359,-42.8047133418454,-42.804610164731,-42.8045974061564,-42.8043694677233,-42.8039524883964,-42.8040081378652,-42.8047468586672,-42.8047931396685,-42.8057000604019,-42.8058179977215,-42.8062432879593,-42.8067330685154,-42.8071030697272,-42.8088593400331,-42.8088108788396,-42.8090456232533,-42.8089918649107,-42.8098531325358,-42.810102432973,-42.8110712311486,-42.8111812916437,-42.8109375902429,-42.8139423148695,-42.8133907961255,-42.8145025000647]}]],[[{"lng":[-65.0494945384309,-65.0506556586506,-65.0510837892845,-65.0484321547159,-65.0480624644986,-65.0494945384309],"lat":[-42.7711687298733,-42.7693888447743,-42.7687325326143,-42.767791638975,-42.7683407709662,-42.7711687298733]}]],[[{"lng":[-65.050643072293,-65.0494945384309,-65.050226532286,-65.0519768523386,-65.0506556586506,-65.050643072293],"lat":[-42.7693845716678,-42.7711687298733,-42.7726139172179,-42.7698373831052,-42.7693888447743,-42.7693845716678]}]],[[{"lng":[-65.0536929712885,-65.0539607906934,-65.0534081556795,-65.0532725781601,-65.0514003025705,-65.0511265102009,-65.0510922285532,-65.0527838872,-65.0524260611537,-65.0536929712885],"lat":[-42.7671148440157,-42.7666899372593,-42.7659717933216,-42.7657956085852,-42.7632060547238,-42.763673931985,-42.7637325145227,-42.7661653976493,-42.7667147638794,-42.7671148440157]}],[{"lng":[-65.0530853534438,-65.0531124433487,-65.0518548736579,-65.0510837892845,-65.050643072293,-65.0506556586506,-65.0519768523386,-65.0530853534438],"lat":[-42.7680788288167,-42.7680358534792,-42.767591678613,-42.7687325326143,-42.7693845716678,-42.7693888447743,-42.7698373831052,-42.7680788288167]}]],[[{"lng":[-65.0364710207373,-65.0388044176078,-65.0388001313895,-65.038796669365,-65.0387920033854,-65.0386127194837,-65.0385459088098,-65.0385054909941,-65.0384827121304,-65.0384507582122,-65.0384460170492,-65.0384311694961,-65.0384113152388,-65.0383887413469,-65.0383646045675,-65.0382930646292,-65.0382505229947,-65.0389502839786,-65.0370626442789,-65.0369468551723,-65.0361700045914,-65.0364710207373],"lat":[-42.7570273436089,-42.7571509149254,-42.7570805943575,-42.75702379558,-42.7569472442938,-42.7546432806384,-42.7537846629337,-42.7532652229327,-42.7529724710775,-42.7525617981331,-42.7525008641192,-42.7523100408404,-42.7520548689172,-42.7517647413014,-42.7514545242393,-42.7505350436561,-42.7499882577834,-42.7465129795541,-42.7462953150508,-42.7493529915622,-42.7558610600988,-42.7570273436089]}],[{"lng":[-65.0388786978349,-65.0359893511854,-65.0356921526229,-65.0357436828365,-65.0358462622402,-65.0367964911159,-65.0389658136029,-65.0388786978349],"lat":[-42.758369565145,-42.7583537092428,-42.7596346214101,-42.7599694424063,-42.7599962565615,-42.7602399693656,-42.7597987446839,-42.758369565145]}]],[[{"lng":[-65.0485754321867,-65.0471261450683,-65.0480624644986,-65.0484321547159,-65.0491970307366,-65.0485754321867],"lat":[-42.7664389613501,-42.7664922571698,-42.7683407709662,-42.767791638975,-42.7666554689822,-42.7664389613501]}]],[[{"lng":[-65.050831342378,-65.0550501473175,-65.0566434328808,-65.0527260031043,-65.0527118692516,-65.050831342378],"lat":[-42.7617122336885,-42.7631032911605,-42.7606832073416,-42.7588304743092,-42.75885197288,-42.7617122336885]}],[{"lng":[-65.0572882390621,-65.0578968752753,-65.0589215517349,-65.0593409141578,-65.0593483433241,-65.0567223520763,-65.0556743103082,-65.0556430188116,-65.0551205003592,-65.0544214179153,-65.0544962594619,-65.0539476465246,-65.0572882390621],"lat":[-42.7581504321981,-42.7572113849527,-42.7575858748759,-42.757024582926,-42.7570135612772,-42.7560776316569,-42.75581955429,-42.7558118486639,-42.7556864952732,-42.7559384589806,-42.7561376576004,-42.7569722058769,-42.7581504321981]}]],[[{"lng":[-65.0586166961439,-65.0574670020842,-65.0586353851701,-65.0592448717224,-65.0591216661235,-65.0602669666767,-65.0602669798222,-65.0617073619758,-65.0558129074393,-65.0568786739608,-65.0574082291508,-65.0574785705102,-65.0556516631149,-65.0560632812375,-65.0549417893166,-65.0524899680145,-65.0497942088217,-65.049054794227,-65.0476836569919,-65.0457237244846,-65.0509143567028,-65.0462962063989,-65.0424039221851,-65.0403205743079,-65.0400617974201,-65.04008305526,-65.0378731242867,-65.0436323411284,-65.0487841207219,-65.0497414176068,-65.0503753216284,-65.0552140203389,-65.0585756587637,-65.0586106844088,-65.0586166961439],"lat":[-42.7875075855288,-42.7871075195436,-42.7852328435703,-42.7842548714222,-42.7842102086377,-42.7823487789351,-42.7823487575694,-42.7800075692669,-42.7780660404952,-42.7760811728244,-42.7751689024746,-42.7750714026504,-42.7744509681855,-42.7737225843984,-42.7731981318013,-42.7745232351717,-42.7759795646823,-42.7771429033498,-42.7766502829597,-42.7796761361812,-42.7814598459072,-42.7863495446433,-42.7850317738027,-42.7883226930682,-42.7887314373144,-42.7887379371826,-42.7923313064083,-42.7942938904248,-42.7857547865288,-42.7859982201884,-42.7848310515062,-42.7863946924539,-42.787572479532,-42.7875172244225,-42.7875075855288]}]],[[{"lng":[-65.0622137440037,-65.062936602992,-65.0635424791774,-65.0642882060788,-65.0630536601427,-65.0628513613575,-65.0615917450082,-65.0622137440037],"lat":[-42.7830098010942,-42.7818440861581,-42.7820554172175,-42.7808741375876,-42.7804597420576,-42.7807909592163,-42.7827960247969,-42.7830098010942]}]],[[{"lng":[-65.0597876363109,-65.0586353851701,-65.0574670020842,-65.0586166961439,-65.0597876363109],"lat":[-42.785630101628,-42.7852328435703,-42.7871075195436,-42.7875075855288,-42.785630101628]}]],[[{"lng":[-65.0628104873411,-65.0648082986511,-65.0662991109969,-65.0642882060788,-65.0635424791774,-65.0628104873411],"lat":[-42.7832148925952,-42.7839010467956,-42.7815490898394,-42.7808741375876,-42.7820554172175,-42.7832148925952]}]],[[{"lng":[-65.0602669798222,-65.0602669666767,-65.0615917450082,-65.0628513613575,-65.0630536601427,-65.0618406501135,-65.0617073619758,-65.0602669798222],"lat":[-42.7823487575694,-42.7823487789351,-42.7827960247969,-42.7807909592163,-42.7804597420576,-42.7800525568164,-42.7800075692669,-42.7823487575694]}]],[[{"lng":[-65.0630189608256,-65.0622489211702,-65.0633394263793,-65.0640977220689,-65.0648082986511,-65.0628104873411,-65.0622137440037,-65.0615917450082,-65.0602669666767,-65.0591216661235,-65.0592448717224,-65.0586353851701,-65.0597876363109,-65.0586166961439,-65.0586106844088,-65.0585756587637,-65.0591140798902,-65.058066229067,-65.0606362143702,-65.0630189608256],"lat":[-42.7867237143242,-42.7864595121528,-42.7847619947312,-42.7850220094003,-42.7839010467956,-42.7832148925952,-42.7830098010942,-42.7827960247969,-42.7823487789351,-42.7842102086377,-42.7842548714222,-42.7852328435703,-42.785630101628,-42.7875075855288,-42.7875172244225,-42.787572479532,-42.7877611078084,-42.7895704510166,-42.7904820217876,-42.7867237143242]}]],[[{"lng":[-65.0675404155354,-65.0681645948123,-65.0690582253953,-65.0688075811386,-65.068256338349,-65.0675404155354],"lat":[-42.7868603249515,-42.7870723079852,-42.7856511867948,-42.7855608329082,-42.7857299869005,-42.7868603249515]}]],[[{"lng":[-65.066820931617,-65.0674463533327,-65.067448135783,-65.0693393512777,-65.0725656823748,-65.0662991109969,-65.0648082986511,-65.0640977220689,-65.0630362451011,-65.0656192063453,-65.066820931617],"lat":[-42.7879962408326,-42.7882110145274,-42.7882116266247,-42.7888610514877,-42.7837118142989,-42.7815490898394,-42.7839010467956,-42.7850220094003,-42.7866964500355,-42.7875835469814,-42.7879962408326]},{"lng":[-65.0681645948123,-65.0675404155354,-65.068256338349,-65.0688075811386,-65.0690582253953,-65.0681645948123],"lat":[-42.7870723079852,-42.7868603249515,-42.7857299869005,-42.7855608329082,-42.7856511867948,-42.7870723079852]}]],[[{"lng":[-65.0635424791774,-65.062936602992,-65.0622137440037,-65.0628104873411,-65.0635424791774],"lat":[-42.7820554172175,-42.7818440861581,-42.7830098010942,-42.7832148925952,-42.7820554172175]}]],[[{"lng":[-65.0656192063453,-65.0644261123401,-65.0662681849546,-65.0674463533327,-65.066820931617,-65.0656192063453],"lat":[-42.7875835469814,-42.7894708922435,-42.7900974028309,-42.7882110145274,-42.7879962408326,-42.7875835469814]}]],[[{"lng":[-65.0640977220689,-65.0633394263793,-65.0622489211702,-65.0630189608256,-65.0630362451011,-65.0640977220689],"lat":[-42.7850220094003,-42.7847619947312,-42.7864595121528,-42.7867237143242,-42.7866964500355,-42.7850220094003]}]],[[{"lng":[-65.0503350618801,-65.0511265102009,-65.0514003025705,-65.0504491156301,-65.0499763488069,-65.0503350618801],"lat":[-42.7625958411704,-42.763673931985,-42.7632060547238,-42.7618957305306,-42.7621133104493,-42.7625958411704]}]],[[{"lng":[-65.0471261450683,-65.0485754321867,-65.0491970307366,-65.0506103850887,-65.0510922285532,-65.0511265102009,-65.0503350618801,-65.0493133497978,-65.0491458458473,-65.0473476458733,-65.0470847354747,-65.0471261450683],"lat":[-42.7664922571698,-42.7664389613501,-42.7666554689822,-42.7645559045189,-42.7637325145227,-42.763673931985,-42.7625958411704,-42.7630611310193,-42.7632727668613,-42.766011299243,-42.7664116224797,-42.7664922571698]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"black","weight":2,"opacity":0.5,"fill":true,"fillColor":["0","0","0","0",null,"0","0","35","13","20","14","12","30","32","0","0","34","36","1","3","23","25","17","9","11","10","5","4","28","38","6","8","7","6","20","20","20","27",null,"31","26","3","29","29","36","36","28","37","37","8","27","36","24","14","18","27","19","33","8","21","8","31","7","27","15","22","15","22","22","22","16","16","22","35","22","7","7"],"fillOpacity":0.2,"smoothFactor":1,"noClip":false},["<strong>Barrio: <\/strong>EL DORADILLO<br>","<strong>Barrio: <\/strong>MEGA MADRYN INDUSTRIAL<br>","<strong>Barrio: <\/strong>LOS GOYOS<br>","<strong>Barrio: <\/strong>PARQUE PESQUERO<br>","<strong>Barrio: <\/strong>PROCREAR<br>","<strong>Barrio: <\/strong>SOLANAS DE LA PATAGONIA<br>","<strong>Barrio: <\/strong>EL INDIO<br>","<strong>Barrio: <\/strong>PRESIDENTE JUAN DOMINGO PERON<br>","<strong>Barrio: <\/strong>DEL DESEMBARCO<br>","<strong>Barrio: <\/strong>COVITRE I<br>","<strong>Barrio: <\/strong>LUIS PIEDRA BUENA<br>","<strong>Barrio: <\/strong>VILLA DEL PARQUE<br>","<strong>Barrio: <\/strong>LAS BARDAS<br>","<strong>Barrio: <\/strong>BAHIA NUEVA<br>","<strong>Barrio: <\/strong>PARQUE AGROPECUARIO<br>","<strong>Barrio: <\/strong>PARQUE INDUSTRIAL LIVIANO<br>","<strong>Barrio: <\/strong>PUJOL I<br>","<strong>Barrio: <\/strong>COVIMAR V<br>","<strong>Barrio: <\/strong>ROCA<br>","<strong>Barrio: <\/strong>PATAGONIA<br>","<strong>Barrio: <\/strong>VILLA PADILLA<br>","<strong>Barrio: <\/strong>ROQUE AZOLINA<br>","<strong>Barrio: <\/strong>GUEMEZ<br>","<strong>Barrio: <\/strong>PARRY MADRYN<br>","<strong>Barrio: <\/strong>SANTA MARIA DEL MAR<br>","<strong>Barrio: <\/strong>CONQUISTADORES DEL DESIERTO<br>","<strong>Barrio: <\/strong>EL PORVENIR<br>","<strong>Barrio: <\/strong>DON BOSCO<br>","<strong>Barrio: <\/strong>COLONOS GALESES<br>","<strong>Barrio: <\/strong>UNION OBRERA<br>","<strong>Barrio: <\/strong>160 VIVIENDAS<br>","<strong>Barrio: <\/strong>140 VIVIENDAS<br>","<strong>Barrio: <\/strong>81 VIVIENDAS<br>","<strong>Barrio: <\/strong>PERITO MORENO<br>","<strong>Barrio: <\/strong>COVITRE II<br>","<strong>Barrio: <\/strong>40 VIVIENDAS<br>","<strong>Barrio: <\/strong>COVIMAR II<br>","<strong>Barrio: <\/strong>COMERCIO II<br>","<strong>Barrio: <\/strong>MALVINAS<br>","<strong>Barrio: <\/strong>AGUA Y ENERGIA<br>","<strong>Barrio: <\/strong>INMIGRANTES<br>","<strong>Barrio: <\/strong>COVIMAR I<br>","<strong>Barrio: <\/strong>COVITRE III<br>","<strong>Barrio: <\/strong>PROVINCIAS UNIDAS<br>","<strong>Barrio: <\/strong>COVIMAR IV<br>","<strong>Barrio: <\/strong>TROPEROS PATAGONICOS<br>","<strong>Barrio: <\/strong>COVIMAR VII<br>","<strong>Barrio: <\/strong>COMERCIO I<br>","<strong>Barrio: <\/strong>FRANCISCO MIGUEL FALCON<br>","<strong>Barrio: <\/strong>COMERCIO II<br>","<strong>Barrio: <\/strong>COMERCIO III<br>","<strong>Barrio: <\/strong>COVIMAR VI<br>","<strong>Barrio: <\/strong>VEPAM<br>","<strong>Barrio: <\/strong>GOB. GALLINA<br>","<strong>Barrio: <\/strong>PUJOL II<br>","<strong>Barrio: <\/strong>COMERCIO IV<br>","<strong>Barrio: <\/strong>AMERICA<br>","<strong>Barrio: <\/strong>QUINTAS EL MIRADOR<br>","<strong>Barrio: <\/strong>159 VIVIENDAS<br>","<strong>Barrio: <\/strong>DEL VILLAR<br>","<strong>Barrio: <\/strong>ANON CARR<br>","<strong>Barrio: <\/strong>BARRANCAS DEL GOLFO<br>","<strong>Barrio: <\/strong>COVIMAR III<br>","<strong>Barrio: <\/strong>SEC<br>","<strong>Barrio: <\/strong>GOB. FONTANA<br>","<strong>Barrio: <\/strong>SVOA 70 VIV<br>","<strong>Barrio: <\/strong>SEYOM 50 VIV<br>","<strong>Barrio: <\/strong>112 VIVIENDAS<br>","<strong>Barrio: <\/strong>SVOA 100 VIVIENDAS<br>","<strong>Barrio: <\/strong>GOB. ROQUE GONZALEZ<br>","<strong>Barrio: <\/strong>33 VIVIENDAS<br>","<strong>Barrio: <\/strong>SAN MIGUEL<br>","<strong>Barrio: <\/strong>SVOA 18 VIV<br>","<strong>Barrio: <\/strong>84 VIVIENDAS<br>","<strong>Barrio: <\/strong>UOCRA 61 VIV<br>","<strong>Barrio: <\/strong>RUCAL HUE<br>","<strong>Barrio: <\/strong>630 VIVIENDAS<br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"white","weight":1,"bringToFront":true}]},{"method":"addLayersControl","args":[["OSM(default)","ESRI","Stamen"],[],{"collapsed":false,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[-42.8234310640056,-42.6103641542939],"lng":[-65.1445630365043,-64.9880211205583]},"setView":[[-42.7726758530981,-65.035558507519],14,[]]},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-efc10336f6411f77a6ef" style="width:100%;height:100%;" class="leaflet html-widget "></div>
+<script type="application/json" data-for="htmlwidget-efc10336f6411f77a6ef">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,"Mapa",{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addProviderTiles","args":["Esri.WorldImagery",null,"Imagen satelital",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addCircles","args":[[-42.6454831975975,-42.7291811730845,-42.7342444676708,-42.7185846810657,-42.7932387539351,-42.8168170936562,-42.7850117455841,-42.7876751011253,-42.7835380574751,-42.7863104868183,-42.7852013476862,-42.7777503450733,-42.7828156127879,-42.7795667855828,-42.765337736002,-42.7667667494528,-42.7546404514796,-42.7525597731974,-42.7541017680243,-42.754141025838,-42.7744542534692,-42.7704104107364,-42.7717802537426,-42.7682547976201,-42.77587469431,-42.7707615490651,-42.7574663493094,-42.7600325144199,-42.7655937810356,-42.7602480944788,-42.7630829769936,-42.7665554698643,-42.7640588329782,-42.7620366304019,-42.7862986810618,-42.7848856916925,-42.784409695859,-42.7634872415742,-42.7781872022414,-42.757759701944,-42.7697329137832,-42.75118925203,-42.7831981350752,-42.7818414249975,-42.7520478924647,-42.7537615006761,-42.764284262167,-42.7514409883759,-42.7513417630585,-42.7673667319743,-42.7586187785103,-42.7526602020602,-42.7578294210151,-42.7844953428814,-42.7594557059654,-42.7586967990231,-42.753126088502,-42.8092783500839,-42.7692065307139,-42.7707883506983,-42.7670569338991,-42.7536620885857,-42.7671081573167,-42.7596599010274,-42.783321611009,-42.7816105715477,-42.7863694752012,-42.7823846211087,-42.781400060516,-42.7861655705745,-42.7862993143462,-42.7851776837226,-42.7825292844913,-42.7888415878699,-42.7857440001033,-42.7627241973547,-42.7647582228042],[-65.0651557865422,-65.1261123999826,-65.0930787445914,-65.0432183215256,-65.0177617445963,-65.0332247244741,-64.9982156490256,-65.0725315751361,-65.0173160410635,-65.0403128483602,-65.0267354868362,-65.0315260616688,-65.0457655883174,-65.0405658763575,-65.0641139610892,-65.0585700494765,-65.0584747321889,-65.054465778327,-65.0491802017963,-65.0425681480767,-65.0470006240325,-65.0552543933751,-65.0526310668159,-65.035203599355,-65.0412067455706,-65.0416960297993,-65.0473229765165,-65.042059934924,-65.0427298862509,-65.046418924358,-65.0476460152866,-65.0507783296326,-65.0483080326178,-65.0466512226139,-65.0373690845551,-65.0390670592438,-65.0376945522404,-65.052859252729,-65.061825046505,-65.0375423041869,-65.0465198041965,-65.0406504850475,-65.0392545912344,-65.0383204606421,-65.0525118130399,-65.0533143107954,-65.0423564711477,-65.0486922621638,-65.045996969591,-65.0527755460417,-65.0575805082837,-65.0533659569213,-65.0516601153432,-65.0349756378869,-65.0606675584295,-65.0551019582427,-65.0562395200052,-65.0420944502078,-65.0494816539799,-65.050619944517,-65.0522280492434,-65.037535373811,-65.0481432947398,-65.0546390345182,-65.0505272215764,-65.0629580872848,-65.0586269005979,-65.0645527599272,-65.0616581467936,-65.0609694986143,-65.0682879839565,-65.0677952692474,-65.062876803351,-65.0659389317296,-65.0631748720654,-65.050730918033,-65.0492726969886],10,null,"centroides",{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":1,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.1},null,null,["EL DORADILLO","MEGA MADRYN INDUSTRIAL","LOS GOYOS","PARQUE PESQUERO","PROCREAR","SOLANAS DE LA PATAGONIA","EL INDIO","PRESIDENTE JUAN DOMINGO PERON","DEL DESEMBARCO","COVITRE I","LUIS PIEDRA BUENA","VILLA DEL PARQUE","LAS BARDAS","BAHIA NUEVA","PARQUE AGROPECUARIO","PARQUE INDUSTRIAL LIVIANO","PUJOL I","COVIMAR V","ROCA","PATAGONIA","VILLA PADILLA","ROQUE AZOLINA","GUEMEZ","PARRY MADRYN","SANTA MARIA DEL MAR","CONQUISTADORES DEL DESIERTO","EL PORVENIR","DON BOSCO","COLONOS GALESES","UNION OBRERA","160 VIVIENDAS","140 VIVIENDAS","81 VIVIENDAS","PERITO MORENO","COVITRE II","40 VIVIENDAS","COVIMAR II","COMERCIO II","MALVINAS","AGUA Y ENERGIA","INMIGRANTES","COVIMAR I","COVITRE III","PROVINCIAS UNIDAS","COVIMAR IV","TROPEROS PATAGONICOS","COVIMAR VII","COMERCIO I","FRANCISCO MIGUEL FALCON","COMERCIO II","COMERCIO III","COVIMAR VI","VEPAM","GOB. GALLINA","PUJOL II","COMERCIO IV","AMERICA","QUINTAS EL MIRADOR","159 VIVIENDAS","DEL VILLAR","ANON CARR","BARRANCAS DEL GOLFO","COVIMAR III","SEC","GOB. FONTANA","SVOA 70 VIV","SEYOM 50 VIV","112 VIVIENDAS","SVOA 100 VIVIENDAS","GOB. ROQUE GONZALEZ","33 VIVIENDAS","SAN MIGUEL","SVOA 18 VIV","84 VIVIENDAS","UOCRA 61 VIV","RUCAL HUE","630 VIVIENDAS"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null,null]},{"method":"addSearchFeatures","args":["centroides",{"openPopup":true,"url":"","propertyLoc":"loc","propertyName":"label","moveToLocation":true,"zoom":17,"container":"","minLength":1,"initial":false,"casesensitive":false,"autoType":true,"delayType":400,"tooltipLimit":-1,"tipAutoSubmit":true,"firstTipSubmit":false,"autoResize":true,"collapsed":true,"autoCollapse":false,"autoCollapseTime":1200,"textErr":"Location Not Found","textCancel":"Cancel","textPlaceholder":"Search...","position":"topleft","hideMarkerOnCollapse":false}]},{"method":"addPolygons","args":[[[[{"lng":[-65.0816330351493,-65.0771991439973,-65.043410417056,-65.0371058719628,-65.0374869115082,-65.0955542476815,-65.0894658411432,-65.0816330351493],"lat":[-42.6103641542939,-42.6106352928514,-42.620379198339,-42.6521277767771,-42.6714655989698,-42.6732317404815,-42.6428416978458,-42.6103641542939]}]],[[{"lng":[-65.1372209064742,-65.1072154904704,-65.111734328889,-65.1127073855348,-65.1151307769252,-65.1445630365043,-65.1372209064742],"lat":[-42.712591210898,-42.7164002841179,-42.7349945045205,-42.7348486668722,-42.744888276202,-42.7433735935406,-42.712591210898]}]],[[{"lng":[-65.1034380320785,-65.0834562395619,-65.0827369539033,-65.1026710695822,-65.1034380320785],"lat":[-42.7271457868789,-42.726642511846,-42.7413357223769,-42.7418643180627,-42.7271457868789]}]],[[{"lng":[-65.0577224708461,-65.0472835197383,-65.0160033097061,-65.0243711777023,-65.018394627821,-65.0243935347702,-65.0280658813174,-65.0295317923019,-65.0319590741659,-65.0342160501082,-65.0346004699355,-65.0390075059338,-65.038894874694,-65.0426421845942,-65.0410695773009,-65.0575465570614,-65.0676857082841,-65.0560179807337,-65.0577224708461],"lat":[-42.7075869977933,-42.7068168146386,-42.7033824680008,-42.7090780263811,-42.7143952907865,-42.7187156477392,-42.7210987094163,-42.7226960740772,-42.7237902809649,-42.7269280747632,-42.7278515991825,-42.7276266386372,-42.7259385071033,-42.7257653857718,-42.7333190012335,-42.7352452191204,-42.7251028357096,-42.7171337121588,-42.7075869977933]}]],[[{"lng":[-65.0177724334581,-65.0153373009747,-65.0188260685361,-65.0194742258456,-65.0177724334581],"lat":[-42.7909156907753,-42.7948722509316,-42.7951568272744,-42.7911058820153,-42.7909156907753]}]],[[{"lng":[-65.0368200172404,-65.0272362275978,-65.0251166034321,-65.0240621956187,-65.0308420935596,-65.0315793210823,-65.0436840457676,-65.0440235064359,-65.0426144193892,-65.0422013689677,-65.0394966563097,-65.0383671798789,-65.0368574956445,-65.0368200172404],"lat":[-42.8110712311486,-42.8125425900867,-42.8159627916886,-42.8228430425955,-42.8234310640056,-42.8190276818933,-42.8199474400284,-42.8181992071493,-42.8145025000647,-42.8133907961255,-42.8139423148695,-42.8109375902429,-42.8111812916437,-42.8110712311486]}]],[[{"lng":[-65.0065375690473,-65.0051202842404,-65.0038307474584,-65.0018242085808,-65.0011507949938,-65.000629885478,-64.9997488493608,-64.9965055417263,-64.9964321190263,-64.9962401396465,-64.9956870227988,-64.9943551254901,-64.9944670708143,-64.9905206264426,-64.9880211205583,-64.9895829327585,-64.9898087398919,-64.9940646718378,-64.9937218790522,-65.0059917582308,-65.0060172577239,-65.0065375690473],"lat":[-42.7849492111335,-42.7853771053467,-42.7851741705014,-42.7842364232485,-42.7834892194529,-42.7808133235657,-42.7800323449971,-42.781556930868,-42.7818055282662,-42.7818741442728,-42.781741478592,-42.7825542012136,-42.7826063106167,-42.7852045922433,-42.7865789162949,-42.7867109380209,-42.7865643445896,-42.7869628911388,-42.7872346829674,-42.7882557348368,-42.7881012080069,-42.7849492111335]}]],[[{"lng":[-65.0674463533327,-65.0662681849546,-65.0644261123401,-65.0656192063453,-65.0630362451011,-65.0630189608256,-65.0606362143702,-65.061591833632,-65.0627978669652,-65.0640751067705,-65.0670140741442,-65.0665285570875,-65.0674983678267,-65.06784387837,-65.0694772389455,-65.0692836669288,-65.0722126325293,-65.0728206863079,-65.0733551564748,-65.0747561968257,-65.0750745186323,-65.0747861389843,-65.0756569542323,-65.0762270386606,-65.0769314041159,-65.0775137284535,-65.0776724627394,-65.0783185517693,-65.0798358116631,-65.0792555197274,-65.0801248575278,-65.0795166756709,-65.0808367494864,-65.0800421298296,-65.0806624446701,-65.0723561744257,-65.0676251499138,-65.0662991109969,-65.0725656823748,-65.0693393512777,-65.067448135783,-65.0674463533327],"lat":[-42.7882110145274,-42.7900974028309,-42.7894708922435,-42.7875835469814,-42.7866964500355,-42.7867237143242,-42.7904820217876,-42.7914273129293,-42.7920430181359,-42.790211783069,-42.7912064467904,-42.7917323875692,-42.7921379161459,-42.7915625807858,-42.7921387935735,-42.7925775769584,-42.7936318893745,-42.7934026887021,-42.7924925837073,-42.7930224711324,-42.7931265826966,-42.7939480342659,-42.7938220599103,-42.7933215441368,-42.7926854325643,-42.7923457339867,-42.7922322625492,-42.7917854315457,-42.7893333745007,-42.789160935669,-42.7877643963261,-42.7875314718424,-42.7853501794434,-42.7851130223471,-42.7841639700995,-42.7812837254659,-42.7796717449871,-42.7815490898394,-42.7837118142989,-42.7888610514877,-42.7882116266247,-42.7882110145274]}]],[[{"lng":[-65.0277534638059,-65.0271501431601,-65.0252979810566,-65.0223826443009,-65.0187485107043,-65.0165967323997,-65.0149691138599,-65.01346592919,-65.01286640553,-65.0106132884116,-65.0092141085338,-65.0065375690473,-65.0060172577239,-65.0160868336021,-65.0187052032711,-65.0250796154261,-65.0288773088968,-65.0286949098982,-65.0277534638059],"lat":[-42.7726361885895,-42.7732952695695,-42.7751633623841,-42.7774498389589,-42.7802916286308,-42.7818543201154,-42.7828396160434,-42.7832873426598,-42.7834704454541,-42.7841012700633,-42.784469064286,-42.7849492111335,-42.7881012080069,-42.7890490712077,-42.7892719341779,-42.7791229412567,-42.7730747639071,-42.7730035847342,-42.7726361885895]}]],[[{"lng":[-65.0382249617224,-65.0403205743079,-65.0424039221851,-65.0410947374301,-65.0402688250684,-65.0392750770835,-65.0391839748894,-65.0382249617224],"lat":[-42.7875935707947,-42.7883226930682,-42.7850317738027,-42.784585380332,-42.784303756081,-42.7859383043341,-42.786088147281,-42.7875935707947]}]],[[{"lng":[-65.0250796154261,-65.0187052032711,-65.0294897237493,-65.0320070493039,-65.032419364271,-65.0344890420512,-65.0250796154261],"lat":[-42.7791229412567,-42.7892719341779,-42.7902560755469,-42.7862678921198,-42.7856142073705,-42.7823327021424,-42.7791229412567]}]],[[{"lng":[-65.0288773088968,-65.0250796154261,-65.0344890420512,-65.0345029632398,-65.0366383328451,-65.0378709282252,-65.0351859583625,-65.0356288914819,-65.0288773088968],"lat":[-42.7730747639071,-42.7791229412567,-42.7823327021424,-42.7823374501345,-42.7789388809323,-42.776976949414,-42.776053883779,-42.7753333426414,-42.7730747639071]}]],[[{"lng":[-65.0410947374301,-65.0424039221851,-65.0462962063989,-65.0509143567028,-65.0457237244846,-65.0445476783647,-65.0444372919871,-65.042666079154,-65.0426237183847,-65.0410947374301],"lat":[-42.784585380332,-42.7850317738027,-42.7863495446433,-42.7814598459072,-42.7796761361812,-42.7792781227606,-42.779240291276,-42.7821314717602,-42.7822006142499,-42.784585380332]}]],[[{"lng":[-65.0426237183847,-65.042666079154,-65.0444372919871,-65.0378709282252,-65.0366383328451,-65.0386528098042,-65.0380291292746,-65.0426237183847],"lat":[-42.7822006142499,-42.7821314717602,-42.779240291276,-42.776976949414,-42.7789388809323,-42.7796377177271,-42.7806271450922,-42.7822006142499]}]],[[{"lng":[-65.0646940254067,-65.0679190139373,-65.0643774983071,-65.0600409255217,-65.059918286293,-65.0646940254067],"lat":[-42.7695906360305,-42.7685560557574,-42.7611530697343,-42.7628508997729,-42.7628994244605,-42.7695906360305]}]],[[{"lng":[-65.0579268945949,-65.0646940254067,-65.059918286293,-65.0599028531283,-65.0592459512535,-65.0579179951919,-65.0566434328808,-65.0550501473175,-65.0532725781601,-65.0534081556795,-65.0539607906934,-65.0579268945949],"lat":[-42.7718432674414,-42.7695906360305,-42.7628994244605,-42.7629049528293,-42.7620000984347,-42.7625176662166,-42.7606832073416,-42.7631032911605,-42.7657956085852,-42.7659717933216,-42.7666899372593,-42.7718432674414]}]],[[{"lng":[-65.0604768059936,-65.0604783023395,-65.0605061901787,-65.060805350204,-65.0589031356605,-65.0588006985905,-65.0587887205747,-65.0585984513736,-65.0585820192436,-65.0557664540792,-65.055752434054,-65.0557110738089,-65.0556807991407,-65.0556430188116,-65.0556743103082,-65.0567223520763,-65.0593483433241,-65.0604714865885,-65.0604768059936],"lat":[-42.7537612324188,-42.7537122161381,-42.7528341827597,-42.7514528840286,-42.7528609359092,-42.7529349600071,-42.7529397995577,-42.7530166749839,-42.7530233141164,-42.7541608408444,-42.7549529300042,-42.7555827483267,-42.7557232681668,-42.7558118486639,-42.75581955429,-42.7560776316569,-42.7570135612772,-42.755347256453,-42.7537612324188]}]],[[{"lng":[-65.0546540008509,-65.0539441248682,-65.0543631881529,-65.0549611896182,-65.0546540008509],"lat":[-42.7520881825856,-42.7519300918134,-42.7531795664941,-42.7530531812976,-42.7520881825856]}]],[[{"lng":[-65.0456337886072,-65.0466587239065,-65.0492149624419,-65.0510869872931,-65.0521382198327,-65.0526722309859,-65.0514680528191,-65.0486871651828,-65.0474069596445,-65.0456337886072],"lat":[-42.7528167410661,-42.7562362037939,-42.7559863352878,-42.7558687401795,-42.7556265352964,-42.7554108227342,-42.7517617224657,-42.7522342589036,-42.7524784906008,-42.7528167410661]}]],[[{"lng":[-65.0466587239065,-65.0456337886072,-65.0456310597461,-65.0445420409929,-65.0445359257519,-65.0428051334642,-65.0428522086699,-65.0429239882305,-65.0429707429134,-65.0430525110611,-65.0432163328642,-65.0411524958236,-65.0399610879524,-65.0390606470527,-65.0384460170492,-65.0384507582122,-65.0384827121304,-65.0385054909941,-65.0385459088098,-65.0386127194837,-65.0387920033854,-65.0441271108822,-65.0454298568943,-65.0466587239065],"lat":[-42.7562362037939,-42.7528167410661,-42.7528076070128,-42.7497392723282,-42.7497220419424,-42.74983729607,-42.7504425990377,-42.7511780909611,-42.7517398574799,-42.7522763994376,-42.7524308707256,-42.7524442295504,-42.7524648683222,-42.752477729784,-42.7525008641192,-42.7525617981331,-42.7529724710775,-42.7532652229327,-42.7537846629337,-42.7546432806384,-42.7569472442938,-42.7567335257875,-42.7566813012782,-42.7562362037939]}]],[[{"lng":[-65.0524899680145,-65.0513560095104,-65.0501754960126,-65.0499757024021,-65.0496676784423,-65.0496497584093,-65.0496263911148,-65.0494285448441,-65.0463203006642,-65.0443817811036,-65.0431260331164,-65.0423983467184,-65.0476836569919,-65.049054794227,-65.0497942088217,-65.0524899680145],"lat":[-42.7745232351717,-42.7741262023183,-42.7737128519084,-42.7736428935155,-42.7735349772311,-42.7735287956728,-42.7735207350626,-42.7734527707541,-42.7723849600846,-42.7717189361279,-42.7737119685978,-42.7748668369091,-42.7766502829597,-42.7771429033498,-42.7759795646823,-42.7745232351717]}]],[[{"lng":[-65.0549417893166,-65.0560238821796,-65.0579268945949,-65.0539607906934,-65.0536929712885,-65.0531124433487,-65.0530853534438,-65.055382006729,-65.0531161431231,-65.0547663985528,-65.0549417893166],"lat":[-42.7731981318013,-42.7726639739312,-42.7718432674414,-42.7666899372593,-42.7671148440157,-42.7680358534792,-42.7680788288167,-42.7712880049049,-42.7724030234579,-42.7730866489558,-42.7731981318013]}]],[[{"lng":[-65.0549417893166,-65.0547663985528,-65.0531161431231,-65.055382006729,-65.0530853534438,-65.0519768523386,-65.050226532286,-65.0496497584093,-65.0499757024021,-65.0501754960126,-65.0513560095104,-65.0524899680145,-65.0549417893166],"lat":[-42.7731981318013,-42.7730866489558,-42.7724030234579,-42.7712880049049,-42.7680788288167,-42.7698373831052,-42.7726139172179,-42.7735287956728,-42.7736428935155,-42.7737128519084,-42.7741262023183,-42.7745232351717,-42.7731981318013]}]],[[{"lng":[-65.0357436828365,-65.0354472560236,-65.0355602477925,-65.0356824887768,-65.0354789814491,-65.0352717034155,-65.0351302826683,-65.0354027815833,-65.035192818827,-65.0352174497814,-65.0353069146585,-65.0350065374401,-65.0346522419154,-65.0342007212829,-65.0322178190124,-65.0317255185113,-65.0311325108996,-65.0303893735601,-65.0304239097416,-65.0304749765194,-65.0307281878367,-65.0306770670048,-65.0296814018584,-65.0287162262789,-65.0277534638059,-65.0286949098982,-65.0288773088968,-65.0356288914819,-65.0378042792408,-65.0406950863831,-65.0387961817447,-65.0401418283847,-65.0392881102625,-65.0390613740344,-65.0389658136029,-65.0367964911159,-65.0358462622402,-65.0357436828365],"lat":[-42.7599694424063,-42.7611186837481,-42.7612176627441,-42.7614026089896,-42.7618625235482,-42.7618068328221,-42.7621303495839,-42.7627131858861,-42.7630430231918,-42.7630889255578,-42.7631195500065,-42.7635914151086,-42.7637216076958,-42.7635670491433,-42.7666965885916,-42.7674735125373,-42.768415565605,-42.7692008612107,-42.7692186019046,-42.7692448340095,-42.7693267201618,-42.7694221512603,-42.7705169457742,-42.7715781692756,-42.7726361885895,-42.7730035847342,-42.7730747639071,-42.7753333426414,-42.7718679705993,-42.767262299087,-42.7651361187077,-42.7629663190643,-42.7619127907575,-42.7613663452179,-42.7597987446839,-42.7602399693656,-42.7599962565615,-42.7599694424063]}]],[[{"lng":[-65.0378042792408,-65.0356288914819,-65.0351859583625,-65.0378709282252,-65.0444372919871,-65.0445476783647,-65.0457237244846,-65.0476836569919,-65.0423983467184,-65.0431260331164,-65.0378042792408],"lat":[-42.7718679705993,-42.7753333426414,-42.776053883779,-42.776976949414,-42.779240291276,-42.7792781227606,-42.7796761361812,-42.7766502829597,-42.7748668369091,-42.7737119685978,-42.7718679705993]}]],[[{"lng":[-65.0406950863831,-65.0378042792408,-65.0431260331164,-65.0443817811036,-65.0463203006642,-65.0422009668169,-65.0421895232717,-65.0420335167173,-65.0416777919553,-65.0406950863831],"lat":[-42.767262299087,-42.7718679705993,-42.7737119685978,-42.7717189361279,-42.7723849600846,-42.7676335539486,-42.7676417083254,-42.7677528742726,-42.7684314925277,-42.767262299087]}]],[[{"lng":[-65.0492149624419,-65.0466587239065,-65.0454298568943,-65.0441271108822,-65.0441560721653,-65.0463390134087,-65.0480697707708,-65.0496907998568,-65.0497481689553,-65.0497722157988,-65.0500043635151,-65.0500696991137,-65.0505401510095,-65.0492149624419],"lat":[-42.7559863352878,-42.7562362037939,-42.7566813012782,-42.7567335257875,-42.7569815660502,-42.7594371779853,-42.7586177362628,-42.7578787544224,-42.7578734460699,-42.7578712210109,-42.7577660019616,-42.7576423889192,-42.7573941381797,-42.7559863352878]}]],[[{"lng":[-65.0463390134087,-65.0441560721653,-65.0441271108822,-65.0387920033854,-65.038796669365,-65.0388001313895,-65.0388044176078,-65.0388786978349,-65.0389658136029,-65.0390613740344,-65.0392881102625,-65.0401418283847,-65.0412764273497,-65.0413110903146,-65.0427459622175,-65.0433376606051,-65.0451816636032,-65.0442866500203,-65.0463390134087],"lat":[-42.7594371779853,-42.7569815660502,-42.7567335257875,-42.7569472442938,-42.75702379558,-42.7570805943575,-42.7571509149254,-42.758369565145,-42.7597987446839,-42.7613663452179,-42.7619127907575,-42.7629663190643,-42.7642760248888,-42.7642593511957,-42.7635691271945,-42.7632844896094,-42.762397393148,-42.7604088256091,-42.7594371779853]}]],[[{"lng":[-65.0413110903146,-65.0412764273497,-65.0401418283847,-65.0387961817447,-65.0406950863831,-65.0416777919553,-65.0420335167173,-65.0421895232717,-65.0422009668169,-65.043570752821,-65.0457190771396,-65.0471261450683,-65.0470847354747,-65.0468189094103,-65.0467203720248,-65.0457981717162,-65.0442561309839,-65.0433376606051,-65.0427459622175,-65.0433310256668,-65.0426987862665,-65.041907794265,-65.0418314572513,-65.0413110903146],"lat":[-42.7642593511957,-42.7642760248888,-42.7629663190643,-42.7651361187077,-42.767262299087,-42.7684314925277,-42.7677528742726,-42.7676417083254,-42.7676335539486,-42.7670086264286,-42.7666966276853,-42.7664922571698,-42.7664116224797,-42.7659016869937,-42.7657130731027,-42.7639421446977,-42.7643417483651,-42.7632844896094,-42.7635691271945,-42.7642055558948,-42.7647820604999,-42.7648724100368,-42.764881978142,-42.7642593511957]}]],[[{"lng":[-65.0480697707708,-65.0463390134087,-65.0442866500203,-65.0451816636032,-65.0461207331557,-65.0488803519769,-65.0488137410249,-65.0480697707708],"lat":[-42.7586177362628,-42.7594371779853,-42.7604088256091,-42.762397393148,-42.76102133866,-42.7597345099843,-42.7596427370324,-42.7586177362628]}]],[[{"lng":[-65.0457981717162,-65.0467203720248,-65.0486662389916,-65.0499763488069,-65.0491815307007,-65.0473427504522,-65.0463992052856,-65.0455894728285,-65.0457981717162],"lat":[-42.7639421446977,-42.7657130731027,-42.7627162396604,-42.7621133104493,-42.7609343133735,-42.7619092855402,-42.7633443738131,-42.7635639718009,-42.7639421446977]}]],[[{"lng":[-65.0510837892845,-65.0518548736579,-65.0524260611537,-65.0527838872,-65.0510922285532,-65.0506103850887,-65.0491970307366,-65.0484321547159,-65.0510837892845],"lat":[-42.7687325326143,-42.767591678613,-42.7667147638794,-42.7661653976493,-42.7637325145227,-42.7645559045189,-42.7666554689822,-42.767791638975,-42.7687325326143]}]],[[{"lng":[-65.0473476458733,-65.0491458458473,-65.0493133497978,-65.0503350618801,-65.0499763488069,-65.0486662389916,-65.0467203720248,-65.0468189094103,-65.0470847354747,-65.0473476458733],"lat":[-42.766011299243,-42.7632727668613,-42.7630611310193,-42.7625958411704,-42.7621133104493,-42.7627162396604,-42.7657130731027,-42.7659016869937,-42.7664116224797,-42.766011299243]}]],[[{"lng":[-65.0457981717162,-65.0455894728285,-65.0463992052856,-65.0473427504522,-65.0491815307007,-65.0499763488069,-65.0504491156301,-65.0488803519769,-65.0461207331557,-65.0451816636032,-65.0433376606051,-65.0442561309839,-65.0457981717162],"lat":[-42.7639421446977,-42.7635639718009,-42.7633443738131,-42.7619092855402,-42.7609343133735,-42.7621133104493,-42.7618957305306,-42.7597345099843,-42.76102133866,-42.762397393148,-42.7632844896094,-42.7643417483651,-42.7639421446977]}]],[[{"lng":[-65.0354496962321,-65.0367858269521,-65.0382249617224,-65.0391839748894,-65.0392750770835,-65.0380016570447,-65.0378513733494,-65.0365222966434,-65.0364966772824,-65.0364555680781,-65.0363411878339,-65.0362151518331,-65.0361358529862,-65.0360673076839,-65.0354496962321],"lat":[-42.7866544269994,-42.7871019545478,-42.7875935707947,-42.786088147281,-42.7859383043341,-42.785507257188,-42.7854563854865,-42.7850065345284,-42.7850483197619,-42.7851113845677,-42.7852868522396,-42.7854801993899,-42.7856018481053,-42.7857069998657,-42.7866544269994]}]],[[{"lng":[-65.0378513733494,-65.0380016570447,-65.0392750770835,-65.0402688250684,-65.0396227606905,-65.0388822589741,-65.0378513733494],"lat":[-42.7854563854865,-42.785507257188,-42.7859383043341,-42.784303756081,-42.7840834529176,-42.7838309394188,-42.7854563854865]}]],[[{"lng":[-65.0365222966434,-65.0378513733494,-65.0388822589741,-65.0388678911931,-65.0380975130861,-65.0375104751197,-65.0368000634797,-65.0366307834207,-65.0365990137712,-65.036537902573,-65.0365222966434],"lat":[-42.7850065345284,-42.7854563854865,-42.7838309394188,-42.7838260405109,-42.7835633323253,-42.7833631399552,-42.7845465165844,-42.7848284893962,-42.784881408348,-42.7849810811924,-42.7850065345284]}]],[[{"lng":[-65.0504491156301,-65.0514003025705,-65.0532725781601,-65.0550501473175,-65.050831342378,-65.0508003671264,-65.0504491156301],"lat":[-42.7618957305306,-42.7632060547238,-42.7657956085852,-42.7631032911605,-42.7617122336885,-42.761759344197,-42.7618957305306]}]],[[{"lng":[-65.0617073619758,-65.0618406501135,-65.0630536601427,-65.0642882060788,-65.0662991109969,-65.0676251499138,-65.0683168390982,-65.0634910353089,-65.0613732094565,-65.0611400456508,-65.0601359316007,-65.0575666935705,-65.0574785705102,-65.0574082291508,-65.0568786739608,-65.0558129074393,-65.0617073619758],"lat":[-42.7800075692669,-42.7800525568164,-42.7804597420576,-42.7808741375876,-42.7815490898394,-42.7796717449871,-42.7786924312101,-42.7771081387291,-42.7763527246168,-42.7762682805295,-42.7754517832792,-42.7744016476811,-42.7750714026504,-42.7751689024746,-42.7760811728244,-42.7780660404952,-42.7800075692669]}]],[[{"lng":[-65.0364710207373,-65.0366463311593,-65.0361507078338,-65.0359893511854,-65.0388786978349,-65.0388044176078,-65.0364710207373],"lat":[-42.7570273436089,-42.7577065618776,-42.7576582460534,-42.7583537092428,-42.758369565145,-42.7571509149254,-42.7570273436089]}]],[[{"lng":[-65.0480624644986,-65.0471261450683,-65.0457190771396,-65.043570752821,-65.0422009668169,-65.0463203006642,-65.0494285448441,-65.0496497584093,-65.050226532286,-65.0494945384309,-65.0480624644986],"lat":[-42.7683407709662,-42.7664922571698,-42.7666966276853,-42.7670086264286,-42.7676335539486,-42.7723849600846,-42.7734527707541,-42.7735287956728,-42.7726139172179,-42.7711687298733,-42.7683407709662]}]],[[{"lng":[-65.0384460170492,-65.0390606470527,-65.0399610879524,-65.0411524958236,-65.0432163328642,-65.0430525110611,-65.0429707429134,-65.0429239882305,-65.0428522086699,-65.0428051334642,-65.0426298478696,-65.0382505229947,-65.0382930646292,-65.0383646045675,-65.0383887413469,-65.0384113152388,-65.0384311694961,-65.0384460170492],"lat":[-42.7525008641192,-42.752477729784,-42.7524648683222,-42.7524442295504,-42.7524308707256,-42.7522763994376,-42.7517398574799,-42.7511780909611,-42.7504425990377,-42.74983729607,-42.749848966921,-42.7499882577834,-42.7505350436561,-42.7514545242393,-42.7517647413014,-42.7520548689172,-42.7523100408404,-42.7525008641192]}]],[[{"lng":[-65.0380975130861,-65.0388678911931,-65.0388822589741,-65.0396227606905,-65.040054583503,-65.0403989995826,-65.0389135989935,-65.0380975130861],"lat":[-42.7835633323253,-42.7838260405109,-42.7838309394188,-42.7840834529176,-42.7833578174759,-42.7828146416914,-42.7823199139782,-42.7835633323253]}]],[[{"lng":[-65.0380975130861,-65.0389135989935,-65.0403989995826,-65.040054583503,-65.0396227606905,-65.0402688250684,-65.0410947374301,-65.0426237183847,-65.0380291292746,-65.0386528098042,-65.0366383328451,-65.0345029632398,-65.0373032126144,-65.0375104751197,-65.0380975130861],"lat":[-42.7835633323253,-42.7823199139782,-42.7828146416914,-42.7833578174759,-42.7840834529176,-42.784303756081,-42.784585380332,-42.7822006142499,-42.7806271450922,-42.7796377177271,-42.7789388809323,-42.7823374501345,-42.7832924586009,-42.7833631399552,-42.7835633323253]}]],[[{"lng":[-65.0527354452185,-65.0520004800141,-65.0523682894117,-65.0530103191778,-65.0527354452185],"lat":[-42.7516609045468,-42.7514966885268,-42.752573921155,-42.7524618829784,-42.7516609045468]}]],[[{"lng":[-65.0523682894117,-65.0520004800141,-65.0513304354361,-65.0514680528191,-65.0526722309859,-65.0553653849852,-65.0549611896182,-65.0543631881529,-65.0527008974794,-65.0523682894117],"lat":[-42.752573921155,-42.7514966885268,-42.7513496309353,-42.7517617224657,-42.7554108227342,-42.7543228694768,-42.7530531812976,-42.7531795664941,-42.7535126322126,-42.752573921155]}]],[[{"lng":[-65.0413110903146,-65.0418314572513,-65.041907794265,-65.0426987862665,-65.0433310256668,-65.0427459622175,-65.0413110903146],"lat":[-42.7642593511957,-42.764881978142,-42.7648724100368,-42.7647820604999,-42.7642055558948,-42.7635691271945,-42.7642593511957]}]],[[{"lng":[-65.0474069596445,-65.0486871651828,-65.0514680528191,-65.0513304354361,-65.0495843267788,-65.0481371043222,-65.04658879773,-65.0474069596445],"lat":[-42.7524784906008,-42.7522342589036,-42.7517617224657,-42.7513496309353,-42.7509567986182,-42.7506270226027,-42.7502741886711,-42.7524784906008]}]],[[{"lng":[-65.0474069596445,-65.04658879773,-65.0452542520456,-65.0445420409929,-65.0456310597461,-65.0456337886072,-65.0474069596445],"lat":[-42.7524784906008,-42.7502741886711,-42.7499700474267,-42.7497392723282,-42.7528076070128,-42.7528167410661,-42.7524784906008]}]],[[{"lng":[-65.0518548736579,-65.0531124433487,-65.0536929712885,-65.0524260611537,-65.0518548736579],"lat":[-42.767591678613,-42.7680358534792,-42.7671148440157,-42.7667147638794,-42.767591678613]}]],[[{"lng":[-65.0589215517349,-65.0578968752753,-65.0572882390621,-65.0564802149219,-65.0566630565165,-65.0569753202497,-65.0582470809882,-65.0589215517349],"lat":[-42.7575858748759,-42.7572113849527,-42.7581504321981,-42.7593996516262,-42.7600457545837,-42.7602294711298,-42.7584885894014,-42.7575858748759]}]],[[{"lng":[-65.0523682894117,-65.0527008974794,-65.0543631881529,-65.0539441248682,-65.0527354452185,-65.0530103191778,-65.0523682894117],"lat":[-42.752573921155,-42.7535126322126,-42.7531795664941,-42.7519300918134,-42.7516609045468,-42.7524618829784,-42.752573921155]}]],[[{"lng":[-65.0539476465246,-65.0544962594619,-65.0544214179153,-65.0551205003592,-65.0556430188116,-65.0556807991407,-65.0557110738089,-65.055752434054,-65.0557664540792,-65.0553653849852,-65.0526722309859,-65.0521382198327,-65.0510869872931,-65.0492149624419,-65.0505401510095,-65.0500696991137,-65.0500043635151,-65.0497722157988,-65.0497481689553,-65.0496907998568,-65.0480697707708,-65.0488137410249,-65.0488803519769,-65.0504491156301,-65.0508003671264,-65.050831342378,-65.0527118692516,-65.0527260031043,-65.0539476465246],"lat":[-42.7569722058769,-42.7561376576004,-42.7559384589806,-42.7556864952732,-42.7558118486639,-42.7557232681668,-42.7555827483267,-42.7549529300042,-42.7541608408444,-42.7543228694768,-42.7554108227342,-42.7556265352964,-42.7558687401795,-42.7559863352878,-42.7573941381797,-42.7576423889192,-42.7577660019616,-42.7578712210109,-42.7578734460699,-42.7578787544224,-42.7586177362628,-42.7596427370324,-42.7597345099843,-42.7618957305306,-42.761759344197,-42.7617122336885,-42.75885197288,-42.7588304743092,-42.7569722058769]}]],[[{"lng":[-65.0375104751197,-65.0373032126144,-65.0345029632398,-65.0344890420512,-65.032419364271,-65.0354496962321,-65.0360673076839,-65.0361358529862,-65.0362151518331,-65.0363411878339,-65.0364555680781,-65.0364966772824,-65.0365222966434,-65.036537902573,-65.0365990137712,-65.0366307834207,-65.0368000634797,-65.0375104751197],"lat":[-42.7833631399552,-42.7832924586009,-42.7823374501345,-42.7823327021424,-42.7856142073705,-42.7866544269994,-42.7857069998657,-42.7856018481053,-42.7854801993899,-42.7852868522396,-42.7851113845677,-42.7850483197619,-42.7850065345284,-42.7849810811924,-42.784881408348,-42.7848284893962,-42.7845465165844,-42.7833631399552]}]],[[{"lng":[-65.059918286293,-65.0600409255217,-65.0643774983071,-65.0648349058454,-65.0642887987823,-65.0604768059936,-65.0604714865885,-65.0593483433241,-65.0593409141578,-65.0589215517349,-65.0582470809882,-65.0569753202497,-65.0566434328808,-65.0579179951919,-65.0592459512535,-65.0599028531283,-65.059918286293],"lat":[-42.7628994244605,-42.7628508997729,-42.7611530697343,-42.7609739730699,-42.7600344399328,-42.7537612324188,-42.755347256453,-42.7570135612772,-42.757024582926,-42.7575858748759,-42.7584885894014,-42.7602294711298,-42.7606832073416,-42.7625176662166,-42.7620000984347,-42.7629049528293,-42.7628994244605]}]],[[{"lng":[-65.0569753202497,-65.0566630565165,-65.0564802149219,-65.0572882390621,-65.0539476465246,-65.0527260031043,-65.0566434328808,-65.0569753202497],"lat":[-42.7602294711298,-42.7600457545837,-42.7593996516262,-42.7581504321981,-42.7569722058769,-42.7588304743092,-42.7606832073416,-42.7602294711298]}]],[[{"lng":[-65.0585984513736,-65.0584088196282,-65.0582821418489,-65.0546540008509,-65.0549611896182,-65.0553653849852,-65.0557664540792,-65.0585820192436,-65.0585984513736],"lat":[-42.7530166749839,-42.7529216833211,-42.7528695527787,-42.7520881825856,-42.7530531812976,-42.7543228694768,-42.7541608408444,-42.7530233141164,-42.7530166749839]}]],[[{"lng":[-65.0426144193892,-65.0479538024153,-65.0478719970557,-65.0478977866438,-65.0457854636439,-65.0464426698573,-65.0462994770176,-65.0446551482797,-65.0437898422363,-65.0429891650087,-65.0424884968674,-65.0417857166619,-65.0414767908916,-65.0412102588692,-65.0406419553687,-65.0401828243133,-65.039931686558,-65.0361169906867,-65.0358600289002,-65.0367185594981,-65.0368360714834,-65.0371748116197,-65.0373616227511,-65.0373761054266,-65.0370281373161,-65.0372709231968,-65.0372402086716,-65.0375696175878,-65.0378636139327,-65.0364901225512,-65.0368200172404,-65.0368574956445,-65.0383671798789,-65.0394966563097,-65.0422013689677,-65.0426144193892],"lat":[-42.8145025000647,-42.813440363627,-42.8130921785836,-42.8123723239245,-42.806391858439,-42.8062442518386,-42.8058739855895,-42.8053544022252,-42.8053169007862,-42.8051424527304,-42.8049321895359,-42.8047133418454,-42.804610164731,-42.8045974061564,-42.8043694677233,-42.8039524883964,-42.8040081378652,-42.8047468586672,-42.8047931396685,-42.8057000604019,-42.8058179977215,-42.8062432879593,-42.8067330685154,-42.8071030697272,-42.8088593400331,-42.8088108788396,-42.8090456232533,-42.8089918649107,-42.8098531325358,-42.810102432973,-42.8110712311486,-42.8111812916437,-42.8109375902429,-42.8139423148695,-42.8133907961255,-42.8145025000647]}]],[[{"lng":[-65.0494945384309,-65.0506556586506,-65.0510837892845,-65.0484321547159,-65.0480624644986,-65.0494945384309],"lat":[-42.7711687298733,-42.7693888447743,-42.7687325326143,-42.767791638975,-42.7683407709662,-42.7711687298733]}]],[[{"lng":[-65.050643072293,-65.0494945384309,-65.050226532286,-65.0519768523386,-65.0506556586506,-65.050643072293],"lat":[-42.7693845716678,-42.7711687298733,-42.7726139172179,-42.7698373831052,-42.7693888447743,-42.7693845716678]}]],[[{"lng":[-65.0536929712885,-65.0539607906934,-65.0534081556795,-65.0532725781601,-65.0514003025705,-65.0511265102009,-65.0510922285532,-65.0527838872,-65.0524260611537,-65.0536929712885],"lat":[-42.7671148440157,-42.7666899372593,-42.7659717933216,-42.7657956085852,-42.7632060547238,-42.763673931985,-42.7637325145227,-42.7661653976493,-42.7667147638794,-42.7671148440157]}],[{"lng":[-65.0530853534438,-65.0531124433487,-65.0518548736579,-65.0510837892845,-65.050643072293,-65.0506556586506,-65.0519768523386,-65.0530853534438],"lat":[-42.7680788288167,-42.7680358534792,-42.767591678613,-42.7687325326143,-42.7693845716678,-42.7693888447743,-42.7698373831052,-42.7680788288167]}]],[[{"lng":[-65.0364710207373,-65.0388044176078,-65.0388001313895,-65.038796669365,-65.0387920033854,-65.0386127194837,-65.0385459088098,-65.0385054909941,-65.0384827121304,-65.0384507582122,-65.0384460170492,-65.0384311694961,-65.0384113152388,-65.0383887413469,-65.0383646045675,-65.0382930646292,-65.0382505229947,-65.0389502839786,-65.0370626442789,-65.0369468551723,-65.0361700045914,-65.0364710207373],"lat":[-42.7570273436089,-42.7571509149254,-42.7570805943575,-42.75702379558,-42.7569472442938,-42.7546432806384,-42.7537846629337,-42.7532652229327,-42.7529724710775,-42.7525617981331,-42.7525008641192,-42.7523100408404,-42.7520548689172,-42.7517647413014,-42.7514545242393,-42.7505350436561,-42.7499882577834,-42.7465129795541,-42.7462953150508,-42.7493529915622,-42.7558610600988,-42.7570273436089]}],[{"lng":[-65.0388786978349,-65.0359893511854,-65.0356921526229,-65.0357436828365,-65.0358462622402,-65.0367964911159,-65.0389658136029,-65.0388786978349],"lat":[-42.758369565145,-42.7583537092428,-42.7596346214101,-42.7599694424063,-42.7599962565615,-42.7602399693656,-42.7597987446839,-42.758369565145]}]],[[{"lng":[-65.0485754321867,-65.0471261450683,-65.0480624644986,-65.0484321547159,-65.0491970307366,-65.0485754321867],"lat":[-42.7664389613501,-42.7664922571698,-42.7683407709662,-42.767791638975,-42.7666554689822,-42.7664389613501]}]],[[{"lng":[-65.050831342378,-65.0550501473175,-65.0566434328808,-65.0527260031043,-65.0527118692516,-65.050831342378],"lat":[-42.7617122336885,-42.7631032911605,-42.7606832073416,-42.7588304743092,-42.75885197288,-42.7617122336885]}],[{"lng":[-65.0572882390621,-65.0578968752753,-65.0589215517349,-65.0593409141578,-65.0593483433241,-65.0567223520763,-65.0556743103082,-65.0556430188116,-65.0551205003592,-65.0544214179153,-65.0544962594619,-65.0539476465246,-65.0572882390621],"lat":[-42.7581504321981,-42.7572113849527,-42.7575858748759,-42.757024582926,-42.7570135612772,-42.7560776316569,-42.75581955429,-42.7558118486639,-42.7556864952732,-42.7559384589806,-42.7561376576004,-42.7569722058769,-42.7581504321981]}]],[[{"lng":[-65.0586166961439,-65.0574670020842,-65.0586353851701,-65.0592448717224,-65.0591216661235,-65.0602669666767,-65.0602669798222,-65.0617073619758,-65.0558129074393,-65.0568786739608,-65.0574082291508,-65.0574785705102,-65.0556516631149,-65.0560632812375,-65.0549417893166,-65.0524899680145,-65.0497942088217,-65.049054794227,-65.0476836569919,-65.0457237244846,-65.0509143567028,-65.0462962063989,-65.0424039221851,-65.0403205743079,-65.0400617974201,-65.04008305526,-65.0378731242867,-65.0436323411284,-65.0487841207219,-65.0497414176068,-65.0503753216284,-65.0552140203389,-65.0585756587637,-65.0586106844088,-65.0586166961439],"lat":[-42.7875075855288,-42.7871075195436,-42.7852328435703,-42.7842548714222,-42.7842102086377,-42.7823487789351,-42.7823487575694,-42.7800075692669,-42.7780660404952,-42.7760811728244,-42.7751689024746,-42.7750714026504,-42.7744509681855,-42.7737225843984,-42.7731981318013,-42.7745232351717,-42.7759795646823,-42.7771429033498,-42.7766502829597,-42.7796761361812,-42.7814598459072,-42.7863495446433,-42.7850317738027,-42.7883226930682,-42.7887314373144,-42.7887379371826,-42.7923313064083,-42.7942938904248,-42.7857547865288,-42.7859982201884,-42.7848310515062,-42.7863946924539,-42.787572479532,-42.7875172244225,-42.7875075855288]}]],[[{"lng":[-65.0622137440037,-65.062936602992,-65.0635424791774,-65.0642882060788,-65.0630536601427,-65.0628513613575,-65.0615917450082,-65.0622137440037],"lat":[-42.7830098010942,-42.7818440861581,-42.7820554172175,-42.7808741375876,-42.7804597420576,-42.7807909592163,-42.7827960247969,-42.7830098010942]}]],[[{"lng":[-65.0597876363109,-65.0586353851701,-65.0574670020842,-65.0586166961439,-65.0597876363109],"lat":[-42.785630101628,-42.7852328435703,-42.7871075195436,-42.7875075855288,-42.785630101628]}]],[[{"lng":[-65.0628104873411,-65.0648082986511,-65.0662991109969,-65.0642882060788,-65.0635424791774,-65.0628104873411],"lat":[-42.7832148925952,-42.7839010467956,-42.7815490898394,-42.7808741375876,-42.7820554172175,-42.7832148925952]}]],[[{"lng":[-65.0602669798222,-65.0602669666767,-65.0615917450082,-65.0628513613575,-65.0630536601427,-65.0618406501135,-65.0617073619758,-65.0602669798222],"lat":[-42.7823487575694,-42.7823487789351,-42.7827960247969,-42.7807909592163,-42.7804597420576,-42.7800525568164,-42.7800075692669,-42.7823487575694]}]],[[{"lng":[-65.0630189608256,-65.0622489211702,-65.0633394263793,-65.0640977220689,-65.0648082986511,-65.0628104873411,-65.0622137440037,-65.0615917450082,-65.0602669666767,-65.0591216661235,-65.0592448717224,-65.0586353851701,-65.0597876363109,-65.0586166961439,-65.0586106844088,-65.0585756587637,-65.0591140798902,-65.058066229067,-65.0606362143702,-65.0630189608256],"lat":[-42.7867237143242,-42.7864595121528,-42.7847619947312,-42.7850220094003,-42.7839010467956,-42.7832148925952,-42.7830098010942,-42.7827960247969,-42.7823487789351,-42.7842102086377,-42.7842548714222,-42.7852328435703,-42.785630101628,-42.7875075855288,-42.7875172244225,-42.787572479532,-42.7877611078084,-42.7895704510166,-42.7904820217876,-42.7867237143242]}]],[[{"lng":[-65.0675404155354,-65.0681645948123,-65.0690582253953,-65.0688075811386,-65.068256338349,-65.0675404155354],"lat":[-42.7868603249515,-42.7870723079852,-42.7856511867948,-42.7855608329082,-42.7857299869005,-42.7868603249515]}]],[[{"lng":[-65.066820931617,-65.0674463533327,-65.067448135783,-65.0693393512777,-65.0725656823748,-65.0662991109969,-65.0648082986511,-65.0640977220689,-65.0630362451011,-65.0656192063453,-65.066820931617],"lat":[-42.7879962408326,-42.7882110145274,-42.7882116266247,-42.7888610514877,-42.7837118142989,-42.7815490898394,-42.7839010467956,-42.7850220094003,-42.7866964500355,-42.7875835469814,-42.7879962408326]},{"lng":[-65.0681645948123,-65.0675404155354,-65.068256338349,-65.0688075811386,-65.0690582253953,-65.0681645948123],"lat":[-42.7870723079852,-42.7868603249515,-42.7857299869005,-42.7855608329082,-42.7856511867948,-42.7870723079852]}]],[[{"lng":[-65.0635424791774,-65.062936602992,-65.0622137440037,-65.0628104873411,-65.0635424791774],"lat":[-42.7820554172175,-42.7818440861581,-42.7830098010942,-42.7832148925952,-42.7820554172175]}]],[[{"lng":[-65.0656192063453,-65.0644261123401,-65.0662681849546,-65.0674463533327,-65.066820931617,-65.0656192063453],"lat":[-42.7875835469814,-42.7894708922435,-42.7900974028309,-42.7882110145274,-42.7879962408326,-42.7875835469814]}]],[[{"lng":[-65.0640977220689,-65.0633394263793,-65.0622489211702,-65.0630189608256,-65.0630362451011,-65.0640977220689],"lat":[-42.7850220094003,-42.7847619947312,-42.7864595121528,-42.7867237143242,-42.7866964500355,-42.7850220094003]}]],[[{"lng":[-65.0503350618801,-65.0511265102009,-65.0514003025705,-65.0504491156301,-65.0499763488069,-65.0503350618801],"lat":[-42.7625958411704,-42.763673931985,-42.7632060547238,-42.7618957305306,-42.7621133104493,-42.7625958411704]}]],[[{"lng":[-65.0471261450683,-65.0485754321867,-65.0491970307366,-65.0506103850887,-65.0510922285532,-65.0511265102009,-65.0503350618801,-65.0493133497978,-65.0491458458473,-65.0473476458733,-65.0470847354747,-65.0471261450683],"lat":[-42.7664922571698,-42.7664389613501,-42.7666554689822,-42.7645559045189,-42.7637325145227,-42.763673931985,-42.7625958411704,-42.7630611310193,-42.7632727668613,-42.766011299243,-42.7664116224797,-42.7664922571698]}]]],null,null,{"interactive":true,"className":"","stroke":true,"color":"black","weight":2,"opacity":0.5,"fill":true,"fillColor":["0","0","0","0",null,"0","0","35","13","20","14","12","30","32","0","0","34","36","1","3","23","25","17","9","11","10","5","4","28","38","6","8","7","6","20","20","20","27",null,"31","26","3","29","29","36","36","28","37","37","8","27","36","24","14","18","27","19","33","8","21","8","31","7","27","15","22","15","22","22","22","16","16","22","35","22","7","7"],"fillOpacity":0.2,"smoothFactor":1,"noClip":false},["<strong>Barrio: <\/strong>EL DORADILLO<br>","<strong>Barrio: <\/strong>MEGA MADRYN INDUSTRIAL<br>","<strong>Barrio: <\/strong>LOS GOYOS<br>","<strong>Barrio: <\/strong>PARQUE PESQUERO<br>","<strong>Barrio: <\/strong>PROCREAR<br>","<strong>Barrio: <\/strong>SOLANAS DE LA PATAGONIA<br>","<strong>Barrio: <\/strong>EL INDIO<br>","<strong>Barrio: <\/strong>PRESIDENTE JUAN DOMINGO PERON<br>","<strong>Barrio: <\/strong>DEL DESEMBARCO<br>","<strong>Barrio: <\/strong>COVITRE I<br>","<strong>Barrio: <\/strong>LUIS PIEDRA BUENA<br>","<strong>Barrio: <\/strong>VILLA DEL PARQUE<br>","<strong>Barrio: <\/strong>LAS BARDAS<br>","<strong>Barrio: <\/strong>BAHIA NUEVA<br>","<strong>Barrio: <\/strong>PARQUE AGROPECUARIO<br>","<strong>Barrio: <\/strong>PARQUE INDUSTRIAL LIVIANO<br>","<strong>Barrio: <\/strong>PUJOL I<br>","<strong>Barrio: <\/strong>COVIMAR V<br>","<strong>Barrio: <\/strong>ROCA<br>","<strong>Barrio: <\/strong>PATAGONIA<br>","<strong>Barrio: <\/strong>VILLA PADILLA<br>","<strong>Barrio: <\/strong>ROQUE AZOLINA<br>","<strong>Barrio: <\/strong>GUEMEZ<br>","<strong>Barrio: <\/strong>PARRY MADRYN<br>","<strong>Barrio: <\/strong>SANTA MARIA DEL MAR<br>","<strong>Barrio: <\/strong>CONQUISTADORES DEL DESIERTO<br>","<strong>Barrio: <\/strong>EL PORVENIR<br>","<strong>Barrio: <\/strong>DON BOSCO<br>","<strong>Barrio: <\/strong>COLONOS GALESES<br>","<strong>Barrio: <\/strong>UNION OBRERA<br>","<strong>Barrio: <\/strong>160 VIVIENDAS<br>","<strong>Barrio: <\/strong>140 VIVIENDAS<br>","<strong>Barrio: <\/strong>81 VIVIENDAS<br>","<strong>Barrio: <\/strong>PERITO MORENO<br>","<strong>Barrio: <\/strong>COVITRE II<br>","<strong>Barrio: <\/strong>40 VIVIENDAS<br>","<strong>Barrio: <\/strong>COVIMAR II<br>","<strong>Barrio: <\/strong>COMERCIO II<br>","<strong>Barrio: <\/strong>MALVINAS<br>","<strong>Barrio: <\/strong>AGUA Y ENERGIA<br>","<strong>Barrio: <\/strong>INMIGRANTES<br>","<strong>Barrio: <\/strong>COVIMAR I<br>","<strong>Barrio: <\/strong>COVITRE III<br>","<strong>Barrio: <\/strong>PROVINCIAS UNIDAS<br>","<strong>Barrio: <\/strong>COVIMAR IV<br>","<strong>Barrio: <\/strong>TROPEROS PATAGONICOS<br>","<strong>Barrio: <\/strong>COVIMAR VII<br>","<strong>Barrio: <\/strong>COMERCIO I<br>","<strong>Barrio: <\/strong>FRANCISCO MIGUEL FALCON<br>","<strong>Barrio: <\/strong>COMERCIO II<br>","<strong>Barrio: <\/strong>COMERCIO III<br>","<strong>Barrio: <\/strong>COVIMAR VI<br>","<strong>Barrio: <\/strong>VEPAM<br>","<strong>Barrio: <\/strong>GOB. GALLINA<br>","<strong>Barrio: <\/strong>PUJOL II<br>","<strong>Barrio: <\/strong>COMERCIO IV<br>","<strong>Barrio: <\/strong>AMERICA<br>","<strong>Barrio: <\/strong>QUINTAS EL MIRADOR<br>","<strong>Barrio: <\/strong>159 VIVIENDAS<br>","<strong>Barrio: <\/strong>DEL VILLAR<br>","<strong>Barrio: <\/strong>ANON CARR<br>","<strong>Barrio: <\/strong>BARRANCAS DEL GOLFO<br>","<strong>Barrio: <\/strong>COVIMAR III<br>","<strong>Barrio: <\/strong>SEC<br>","<strong>Barrio: <\/strong>GOB. FONTANA<br>","<strong>Barrio: <\/strong>SVOA 70 VIV<br>","<strong>Barrio: <\/strong>SEYOM 50 VIV<br>","<strong>Barrio: <\/strong>112 VIVIENDAS<br>","<strong>Barrio: <\/strong>SVOA 100 VIVIENDAS<br>","<strong>Barrio: <\/strong>GOB. ROQUE GONZALEZ<br>","<strong>Barrio: <\/strong>33 VIVIENDAS<br>","<strong>Barrio: <\/strong>SAN MIGUEL<br>","<strong>Barrio: <\/strong>SVOA 18 VIV<br>","<strong>Barrio: <\/strong>84 VIVIENDAS<br>","<strong>Barrio: <\/strong>UOCRA 61 VIV<br>","<strong>Barrio: <\/strong>RUCAL HUE<br>","<strong>Barrio: <\/strong>630 VIVIENDAS<br>"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},{"color":"white","weight":1,"bringToFront":true}]},{"method":"addLayersControl","args":[["Mapa","Imagen satelital"],[],{"collapsed":false,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[-42.8234310640056,-42.6103641542939],"lng":[-65.1445630365043,-64.9880211205583]},"setView":[[-42.7726758530981,-65.035558507519],14,[]]},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 </div>
@@ -6878,9 +7490,11 @@ alejar</em>)</h3>
 </div>
 
 <script>
-$(document).ready(function() {
+
+$(document).ready(function () {
+
   // add bootstrap table styles to pandoc tables
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed table-sm');
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 
   // initialize mathjax
   var script = document.createElement("script");
@@ -6894,6 +7508,7 @@ $(document).ready(function() {
 <script type="text/javascript">
 $(document).ready(function () {
   FlexDashboard.init({
+    theme: "cosmo",
     fillPage: false,
     orientation: "rows",
     storyboard: false,
@@ -6902,21 +7517,6 @@ $(document).ready(function () {
     defaultFigWidthMobile: 360,
     defaultFigHeightMobile: 460,
     resize_reload: true
-  });
-  var navbar = $(".navbar").first();
-  var body = $("body").first();
-  var sidebar = $(".section.sidebar").first();
-  function addNavbarPadding() {
-    var navHeight = navbar.outerHeight();
-    body.css("padding-top", (navHeight + 8) + "px");
-    sidebar.css("top", navHeight + "px");
-    var resizeEvent = window.document.createEvent("UIEvents");
-    resizeEvent.initUIEvent("resize", true, false, window, 0);
-    window.dispatchEvent(resizeEvent);
-  }
-  if (!window.Shiny) setTimeout(addNavbarPadding, 100);
-  $(document).on("shiny:idle", function() {
-    setTimeout(addNavbarPadding, 50);
   });
 });
 </script>
